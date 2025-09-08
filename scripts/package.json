@@ -1,0 +1,9 @@
+{
+  "name": "marketpro-gt-scripts",
+  "version": "1.0.0",
+  "description": "Scripts de prueba para MarketPro GT",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.2"
+  }
+}
