@@ -12,14 +12,14 @@ Deno.serve(async (req) => {
   }
 
   try {
-    const { clientId, campaignId, strategyType, customObjectives } = await req.json();
+    const { clientId, campaignId, strategyType, customObjectives, openai_api_key } = await req.json();
 
     if (!clientId || !strategyType) {
       throw new Error('clientId y strategyType son requeridos');
     }
 
     // Obtener claves de entorno
-    const openaiApiKey = Deno.env.get('OPENAI_API_KEY');
+    const openaiApiKey = openai_api_key || Deno.env.get('OPENAI_API_KEY');
     const supabaseUrl = Deno.env.get('SUPABASE_URL');
     const supabaseServiceKey = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY');
 
@@ -188,19 +188,28 @@ Estructura de respuesta JSON requerida:
     const specificPrompt = strategyPrompts[strategyType] || "Desarrolla una estrategia integral de marketing digital";
 
     let clientPrompt = `
-CLIENTE: ${client.name}
-INDUSTRIA: ${client.industry}
-DESCRIPCIÓN: ${client.description}
-PROPUESTA DE VALOR: ${client.unique_value_proposition}
+=== INFORMACIÓN COMPLETA DEL CLIENTE ===
+EMPRESA: ${client.name}
+INDUSTRIA: ${client.industry || client.business_type}
+DESCRIPCIÓN DETALLADA: ${client.description}
+PROPUESTA DE VALOR ÚNICA: ${client.unique_value_proposition || client.primary_goal}
+SITIO WEB: ${client.website_url}
+PAÍS/MERCADO: ${client.country || 'Guatemala'}
 
-AUDIENCIA OBJETIVO:
+=== AUDIENCIA OBJETIVO DETALLADA ===
 ${JSON.stringify(client.target_audience, null, 2)}
 
-COMPETIDORES:
+=== ANÁLISIS DE COMPETENCIA ===
 ${JSON.stringify(client.competitors, null, 2)}
 
-PAÍS: ${client.country}
-SITIO WEB: ${client.website_url}`;
+=== PERFILES SOCIALES Y PRESENCIA DIGITAL ===
+${JSON.stringify(client.social_profiles, null, 2)}
+
+=== INFORMACIÓN ADICIONAL ===
+Tipo de Negocio: ${client.business_type || client.industry}
+Email de Contacto: ${client.contact_email || 'No especificado'}
+Teléfono: ${client.contact_phone || 'No especificado'}
+Dirección: ${client.address || 'No especificado'}`;
 
     if (campaign) {
       clientPrompt += `
@@ -221,9 +230,31 @@ OBJETIVOS ESPECÍFICOS: ${customObjectives}`;
 
 ${clientPrompt}
 
-TIPO DE ESTRATEGIA: ${specificPrompt}
+=== TIPO DE ESTRATEGIA SOLICITADA ===
+${specificPrompt}
 
-Genera una estrategia completa y accionable usando los frameworks de Russell Brunson. La estrategia debe ser específica para el mercado guatemalteco/centroamericano con precios, plataformas y tácticas adaptadas al contexto local.`;
+=== INSTRUCCIONES ESPECÍFICAS ===
+1. Genera una estrategia COMPLETA y ACCIONABLE usando frameworks de Russell Brunson
+2. ADAPTA TODO al mercado guatemalteco/centroamericano con:
+   - Precios en Quetzales (Q) apropiados para el mercado local
+   - Plataformas populares en Guatemala (Facebook, Instagram, WhatsApp Business, TikTok)
+   - Referencias culturales y de idioma local
+   - Competidores locales específicos
+   - Canales de distribución locales
+
+3. INCLUYE elementos específicos como:
+   - Nombres reales de influencers guatemaltecos/centroamericanos
+   - Plataformas de pago locales (Pago Móvil, bancos locales)
+   - Eventos y fechas importantes del mercado local
+   - Estrategias de WhatsApp Business (muy popular en Guatemala)
+
+4. SÉ ESPECÍFICO en:
+   - Precios exactos en Quetzales
+   - Nombres de productos/servicios específicos
+   - Tácticas de marketing local
+   - Métricas y KPIs relevantes para el mercado
+
+5. ESTRUCTURA la respuesta en JSON válido siguiendo exactamente el formato especificado.`;
 
     console.log('Generando estrategia de marketing con OpenAI...');
 
@@ -243,10 +274,20 @@ Genera una estrategia completa y accionable usando los frameworks de Russell Bru
           },
           {
             role: 'user',
-            content: `Genera una estrategia de marketing tipo "${strategyType}" para ${client.name} usando frameworks de Russell Brunson. La estrategia debe ser específica, accionable y adaptada al mercado guatemalteco.`
+            content: `Como experto en marketing digital y frameworks de Russell Brunson, genera una estrategia completa tipo "${strategyType}" para ${client.name}. 
+
+REQUISITOS ESPECÍFICOS:
+- Usa SOLO frameworks de Russell Brunson (Value Ladder, Perfect Webinar, Dream 100, etc.)
+- ADAPTA TODO al mercado guatemalteco/centroamericano
+- Incluye precios específicos en Quetzales (Q)
+- Menciona influencers y plataformas locales reales
+- Proporciona tácticas accionables y específicas
+- Incluye métricas y KPIs relevantes para el mercado local
+
+La estrategia debe ser tan específica que el cliente pueda implementarla inmediatamente sin necesidad de investigación adicional.`
           }
         ],
-        max_completion_tokens: 4000
+        max_completion_tokens: 6000
       })
     });
 

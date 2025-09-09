@@ -40,14 +40,14 @@ export default function ClientsPage() {
     }
   })
 
-  // Get unique industries for filter
-  const industries = clients ? [...new Set(clients.map(client => client.industry))] : []
+  // Get unique business types for filter
+  const industries = clients ? [...new Set(clients.map(client => client.business_type))] : []
 
   // Filter clients based on search and industry
   const filteredClients = clients?.filter(client => {
     const matchesSearch = client.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          client.description.toLowerCase().includes(searchTerm.toLowerCase())
-    const matchesIndustry = selectedIndustry === 'all' || client.industry === selectedIndustry
+    const matchesIndustry = selectedIndustry === 'all' || client.business_type === selectedIndustry
     return matchesSearch && matchesIndustry
   }) || []
 
@@ -188,8 +188,8 @@ export default function ClientsPage() {
 }
 
 function ClientCard({ client }: { client: Client }) {
-  const targetAudience = client.target_audience?.primary || 'No definido'
-  const competitorCount = client.competitors?.main_competitors?.length || 0
+  const targetAudience = client.target_audience || 'No definido'
+  const socialProfiles = client.social_profiles || {}
 
   return (
     <Card className="hover:shadow-lg transition-shadow duration-200">
@@ -201,7 +201,7 @@ function ClientCard({ client }: { client: Client }) {
             </CardTitle>
             <CardDescription className="mt-1">
               <Badge variant="secondary" className="text-xs">
-                {client.industry}
+                {client.business_type}
               </Badge>
             </CardDescription>
           </div>
@@ -243,17 +243,17 @@ function ClientCard({ client }: { client: Client }) {
             </div>
           )}
           
-          {client.contact_email && (
+          {socialProfiles.facebook && (
             <div className="flex items-center text-sm text-gray-500">
               <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
-              <span className="truncate">{client.contact_email}</span>
+              <span className="truncate">Facebook: {socialProfiles.facebook}</span>
             </div>
           )}
           
-          {client.country && (
+          {socialProfiles.instagram && (
             <div className="flex items-center text-sm text-gray-500">
               <MapPin className="h-4 w-4 mr-2 flex-shrink-0" />
-              <span>{client.country}</span>
+              <span>Instagram: {socialProfiles.instagram}</span>
             </div>
           )}
         </div>
@@ -262,8 +262,8 @@ function ClientCard({ client }: { client: Client }) {
         <div className="pt-4 border-t border-gray-200">
           <div className="flex justify-between text-sm">
             <div className="text-center">
-              <p className="font-medium text-gray-900">{competitorCount}</p>
-              <p className="text-gray-500">Competidores</p>
+              <p className="font-medium text-gray-900">{client.primary_goal}</p>
+              <p className="text-gray-500">Objetivo</p>
             </div>
             <div className="text-center">
               <p className="font-medium text-gray-900">
@@ -293,12 +293,12 @@ function ClientCard({ client }: { client: Client }) {
           </Button>
         </div>
 
-        {/* Value Proposition */}
-        {client.unique_value_proposition && (
+        {/* Primary Goal */}
+        {client.primary_goal && (
           <div className="bg-blue-50 rounded-lg p-3 mt-4">
-            <p className="text-xs font-medium text-blue-900 mb-1">Propuesta de Valor</p>
+            <p className="text-xs font-medium text-blue-900 mb-1">Objetivo Principal</p>
             <p className="text-sm text-blue-800 line-clamp-2">
-              {client.unique_value_proposition}
+              {client.primary_goal}
             </p>
           </div>
         )}

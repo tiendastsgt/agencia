@@ -1,10 +1,20 @@
 import React, { useState } from 'react'
-import { useQuery } from '@tanstack/react-query'
+import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { supabase, Client, Campaign } from '@/lib/supabase'
+import { useAuth } from '@/lib/auth'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { Label } from '@/components/ui/label'
+import { Textarea } from '@/components/ui/textarea'
 import { Badge } from '@/components/ui/badge'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
 import {
   Megaphone,
   Search,
@@ -23,6 +33,7 @@ import {
   Zap
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { toast } from 'sonner'
 
 const campaignStatusColors = {
   'planning': 'bg-yellow-100 text-yellow-800',
@@ -49,8 +60,20 @@ const russellBrunsonFrameworks = {
 
 export default function CampaignsPage() {
   const [searchTerm, setSearchTerm] = useState('')
+  const [showCreateForm, setShowCreateForm] = useState(false)
+  const [newCampaign, setNewCampaign] = useState({
+    name: '',
+    description: '',
+    objective: '',
+    budget: '',
+    framework: '',
+    status: 'planning'
+  })
   const [selectedStatus, setSelectedStatus] = useState('all')
   const [selectedClient, setSelectedClient] = useState('all')
+  
+  const { activeClient } = useAuth()
+  const queryClient = useQueryClient()
 
   // Fetch campaigns
   const { data: campaigns, isLoading } = useQuery({
@@ -65,6 +88,52 @@ export default function CampaignsPage() {
       return data
     }
   })
+
+  // Create campaign mutation
+  const createCampaignMutation = useMutation({
+    mutationFn: async (campaignData: any) => {
+      if (!activeClient) throw new Error('No hay cliente activo')
+      
+      const { data, error } = await supabase
+        .from('campaigns')
+        .insert({
+          ...campaignData,
+          client_id: activeClient.id,
+          budget: parseFloat(campaignData.budget) || 0,
+          created_at: new Date().toISOString(),
+          updated_at: new Date().toISOString()
+        })
+        .select()
+        .single()
+
+      if (error) throw error
+      return data
+    },
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['campaigns'] })
+      setShowCreateForm(false)
+      setNewCampaign({
+        name: '',
+        description: '',
+        objective: '',
+        budget: '',
+        framework: '',
+        status: 'planning'
+      })
+      toast.success('Campaña creada exitosamente')
+    },
+    onError: (error: any) => {
+      toast.error('Error al crear campaña: ' + error.message)
+    }
+  })
+
+  const handleCreateCampaign = () => {
+    if (!newCampaign.name || !newCampaign.objective) {
+      toast.error('Nombre y objetivo son requeridos')
+      return
+    }
+    createCampaignMutation.mutate(newCampaign)
+  }
 
   // Fetch clients for filter
   const { data: clients } = useQuery({
@@ -107,27 +176,105 @@ export default function CampaignsPage() {
             {[...Array(6)].map((_, i) => (
               <div key={i} className="h-64 bg-gray-300 rounded-lg"></div>
             ))}
+        </div>
+      </div>
+
+      {/* Create Campaign Modal */}
+      {showCreateForm && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-bold">Crear Nueva Campaña</h2>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setShowCreateForm(false)}
+              >
+                ✕
+              </Button>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <Label htmlFor="name">Nombre de la Campaña *</Label>
+                <Input
+                  id="name"
+                  value={newCampaign.name}
+                  onChange={(e) => setNewCampaign({ ...newCampaign, name: e.target.value })}
+                  placeholder="Ej: Lanzamiento Q1 2025"
+                />
+              </div>
+
+              <div>
+                <Label htmlFor="description">Descripción</Label>
+                <Textarea
+                  id="description"
+                  value={newCampaign.description}
+                  onChange={(e) => setNewCampaign({ ...newCampaign, description: e.target.value })}
+                  placeholder="Describe el propósito de la campaña"
+                  rows={3}
+                />
+              </div>
+
+              <div>
+                <Label htmlFor="objective">Objetivo *</Label>
+                <Input
+                  id="objective"
+                  value={newCampaign.objective}
+                  onChange={(e) => setNewCampaign({ ...newCampaign, objective: e.target.value })}
+                  placeholder="Ej: Aumentar ventas en 30%"
+                />
+              </div>
+
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <Label htmlFor="budget">Presupuesto (Q)</Label>
+                  <Input
+                    id="budget"
+                    type="number"
+                    value={newCampaign.budget}
+                    onChange={(e) => setNewCampaign({ ...newCampaign, budget: e.target.value })}
+                    placeholder="10000"
+                  />
+                </div>
+
+                <div>
+                  <Label htmlFor="framework">Framework Russell Brunson</Label>
+                  <Select value={newCampaign.framework} onValueChange={(value) => setNewCampaign({ ...newCampaign, framework: value })}>
+                    <SelectTrigger>
+                      <SelectValue placeholder="Seleccionar framework" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="Perfect Webinar">Perfect Webinar</SelectItem>
+                      <SelectItem value="Value Ladder">Value Ladder</SelectItem>
+                      <SelectItem value="Hook-Story-Offer">Hook-Story-Offer</SelectItem>
+                      <SelectItem value="Dream 100">Dream 100</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
+              </div>
+
+              <div className="flex justify-end space-x-2 pt-4">
+                <Button
+                  variant="outline"
+                  onClick={() => setShowCreateForm(false)}
+                >
+                  Cancelar
+                </Button>
+                <Button
+                  onClick={handleCreateCampaign}
+                  disabled={createCampaignMutation.isPending}
+                >
+                  {createCampaignMutation.isPending ? 'Creando...' : 'Crear Campaña'}
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    )
-  }
-
-  return (
-    <div className="space-y-6">
-      {/* Header */}
-      <div className="flex justify-between items-center">
-        <div>
-          <h1 className="text-3xl font-bold text-gray-900">Campañas</h1>
-          <p className="mt-1 text-sm text-gray-500">
-            Gestiona campañas de marketing basadas en frameworks Russell Brunson
-          </p>
-        </div>
-        <Button>
-          <Plus className="h-4 w-4 mr-2" />
-          Nueva Campaña
-        </Button>
-      </div>
+      )}
+    </div>
+  )
+}
 
       {/* Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">

@@ -1,16 +1,41 @@
 {
-  "name": "react_repo",
+  "name": "marketpro-gt",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Plataforma de marketing digital para el mercado guatemalteco",
   "type": "module",
+  "keywords": ["marketing", "digital", "guatemala", "ai", "content", "strategy"],
+  "author": "MarketPro GT Team",
+  "license": "MIT",
+  "homepage": "https://github.com/tu-usuario/marketpro-gt#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/marketpro-gt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/marketpro-gt/issues"
+  },
   "scripts": {
     "dev": "pnpm install --prefer-offline && vite",
     "build": "pnpm install --prefer-offline && rm -rf node_modules/.vite-temp && tsc -b && vite build",
     "build:prod": "pnpm install --prefer-offline && rm -rf node_modules/.vite-temp && tsc -b && BUILD_MODE=prod vite build",
     "lint": "pnpm install --prefer-offline && eslint .",
+    "lint:fix": "pnpm install --prefer-offline && eslint . --fix",
+    "type-check": "tsc --noEmit",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
     "preview": "pnpm install --prefer-offline && vite preview",
     "install-deps": "pnpm install --prefer-offline",
-    "clean": "rm -rf node_modules .pnpm-store pnpm-lock.yaml && pnpm store prune"
+    "clean": "rm -rf node_modules .pnpm-store pnpm-lock.yaml && pnpm store prune",
+    "security:audit": "pnpm audit --audit-level moderate",
+    "security:check": "pnpm audit && pnpm outdated",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:reset": "supabase db reset",
+    "supabase:deploy": "supabase functions deploy",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -78,6 +103,7 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.12.0",
     "postcss": "8.4.49",
+    "supabase": "^2.39.2",
     "tailwindcss": "v3.4.16",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.15.0",

@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = 'https://keiegxjpxexbwhqhpnpb.supabase.co'
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtlaWVneGpweGV4YndocWhwbnBiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcyODgwNDksImV4cCI6MjA3Mjg2NDA0OX0.pybJ5bg55uzQDvWe8MtxOTYinM2_x1Ua9FmFcopHl0Q'
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY
 
 // Sistema de generación real con IA - YA NO ES DEMO
 export const AI_ENABLED = true
@@ -13,20 +13,27 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 export interface Client {
   id: string
   name: string
-  industry: string
+  business_type: string
   description: string
   website_url: string
+  logo_url: string | null
+  target_audience: string
+  primary_goal: string
+  social_profiles: any
+  api_credentials: any
+  is_active: boolean
+  user_id: string
+  created_at: string
+  updated_at: string
+  // Campos adicionales que existen en la BD
+  industry: string
   contact_email: string
   contact_phone: string
   address: string
   country: string
-  target_audience: any
-  competitors: any
+  competitors: string[]
   unique_value_proposition: string
-  is_active: boolean
   created_by: string
-  created_at: string
-  updated_at: string
 }
 
 export interface Campaign {

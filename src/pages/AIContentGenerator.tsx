@@ -102,7 +102,10 @@ export default function AIContentGenerator() {
       setIsGenerating(true)
       
       const { data, error } = await supabase.functions.invoke('generate-content', {
-        body: params
+        body: {
+          ...params,
+          openai_api_key: import.meta.env.VITE_OPENAI_API_KEY
+        }
       })
       
       if (error) throw error
@@ -128,12 +131,11 @@ export default function AIContentGenerator() {
     }
 
     const params = {
-      clientId: selectedClient,
-      campaignId: selectedCampaign && selectedCampaign !== 'none' ? selectedCampaign : null,
-      contentType: selectedContentType,
+      client_id: selectedClient,
+      type: selectedContentType,
       platform: selectedPlatform,
-      contentBucket: selectedBucket && selectedBucket !== 'auto' ? selectedBucket : null,
-      customPrompt: customPrompt || null
+      topic: selectedBucket && selectedBucket !== 'auto' ? selectedBucket : null,
+      custom_prompt: customPrompt || null
     }
 
     generateContentMutation.mutate(params)

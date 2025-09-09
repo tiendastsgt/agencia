@@ -117,8 +117,11 @@ export default function StrategiesPage() {
   const generateStrategyMutation = useMutation({
     mutationFn: async (params: any) => {
       setIsGenerating(true)
-      const { data, error } = await supabase.functions.invoke('generate-strategy', {
-        body: params
+      const { data, error } = await supabase.functions.invoke('generate-marketing-strategy', {
+        body: {
+          ...params,
+          openai_api_key: import.meta.env.VITE_OPENAI_API_KEY
+        }
       })
       
       if (error) throw error

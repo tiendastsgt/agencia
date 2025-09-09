@@ -1,0 +1,43 @@
+version: 2
+updates:
+  # Actualizar dependencias de npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "tu-usuario"
+    assignees:
+      - "tu-usuario"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "javascript"
+    ignore:
+      # Ignorar actualizaciones mayores que pueden romper compatibilidad
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  # Actualizar dependencias de GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "tu-usuario"
+    assignees:
+      - "tu-usuario"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"

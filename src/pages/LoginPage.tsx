@@ -13,7 +13,8 @@ export default function LoginPage() {
   const [showPassword, setShowPassword] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [isSignUp, setIsSignUp] = useState(false)
-  const { signIn, signUp } = useAuth()
+  const [showResetPassword, setShowResetPassword] = useState(false)
+  const { signIn, signUp, resetPassword } = useAuth()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -42,19 +43,26 @@ export default function LoginPage() {
     }
   }
 
-  // Demo login function
-  const handleDemoLogin = async () => {
+
+  // Reset password function
+  const handleResetPassword = async (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!email) {
+      toast.error('Por favor ingresa tu email')
+      return
+    }
+
     setIsLoading(true)
-    setEmail('demo@marketpro.gt')
-    setPassword('demo123')
-    
     try {
-      const { error } = await signIn('demo@marketpro.gt', 'demo123')
+      const { error } = await resetPassword(email)
       if (error) {
-        toast.error('Credenciales de demo no válidas. Usa el formulario para crear una cuenta.')
+        toast.error(error.message)
+      } else {
+        toast.success('Se ha enviado un enlace de restablecimiento a tu email')
+        setShowResetPassword(false)
       }
     } catch (error) {
-      toast.error('Error en login de demo')
+      toast.error('Error al enviar el enlace de restablecimiento')
     } finally {
       setIsLoading(false)
     }
@@ -79,22 +87,20 @@ export default function LoginPage() {
           </p>
         </div>
 
-        {/* Demo credentials info */}
+        {/* Info card */}
         <Card className="bg-blue-50 border-blue-200">
           <CardContent className="pt-6">
             <div className="text-center">
-              <h3 className="text-sm font-medium text-blue-900 mb-2">Acceso de Demostración</h3>
+              <h3 className="text-sm font-medium text-blue-900 mb-2">Sistema Privado</h3>
               <p className="text-xs text-blue-700 mb-3">
-                Explora la plataforma con datos de LiendrexGT pre-cargados
+                Solo usuarios autorizados pueden acceder a MarketPro GT
               </p>
-              <Button 
-                onClick={handleDemoLogin}
-                disabled={isLoading}
-                variant="outline"
-                className="w-full border-blue-300 text-blue-700 hover:bg-blue-100"
-              >
-                {isLoading ? 'Cargando...' : 'Acceso Demo'}
-              </Button>
+              <div className="text-xs text-blue-600 mb-3 p-2 bg-blue-100 rounded">
+                <strong>Usuarios autorizados:</strong><br/>
+                • hatch.guate@gmail.com<br/>
+                • tiendastsgt@gmail.com<br/>
+                <span className="text-green-600 font-medium">✓ Cuenta configurada</span>
+              </div>
             </div>
           </CardContent>
         </Card>
@@ -166,7 +172,7 @@ export default function LoginPage() {
             </form>
 
             <div className="mt-6">
-              <div className="text-center">
+              <div className="text-center space-y-2">
                 <button
                   type="button"
                   onClick={() => setIsSignUp(!isSignUp)}
@@ -174,10 +180,73 @@ export default function LoginPage() {
                 >
                   {isSignUp ? '¿Ya tienes cuenta? Iniciar sesión' : '¿No tienes cuenta? Regístrate'}
                 </button>
+                
+                {!isSignUp && (
+                  <div>
+                    <button
+                      type="button"
+                      onClick={() => setShowResetPassword(!showResetPassword)}
+                      className="text-sm text-gray-600 hover:text-gray-500"
+                    >
+                      ¿Olvidaste tu contraseña?
+                    </button>
+                  </div>
+                )}
               </div>
             </div>
           </CardContent>
         </Card>
+
+        {/* Reset Password Form */}
+        {showResetPassword && (
+          <Card>
+            <CardHeader>
+              <CardTitle>Restablecer Contraseña</CardTitle>
+              <CardDescription>
+                Ingresa tu email para recibir un enlace de restablecimiento
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <form onSubmit={handleResetPassword} className="space-y-6">
+                <div>
+                  <Label htmlFor="reset-email">Email</Label>
+                  <div className="mt-1 relative">
+                    <Input
+                      id="reset-email"
+                      name="email"
+                      type="email"
+                      autoComplete="email"
+                      required
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      className="pl-10"
+                      placeholder="tu@empresa.com"
+                    />
+                    <Mail className="h-5 w-5 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2" />
+                  </div>
+                </div>
+
+                <div className="flex space-x-3">
+                  <Button
+                    type="submit"
+                    disabled={isLoading}
+                    className="flex-1 bg-blue-600 hover:bg-blue-700"
+                  >
+                    {isLoading ? 'Enviando...' : 'Enviar Enlace'}
+                  </Button>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => setShowResetPassword(false)}
+                    className="flex-1"
+                  >
+                    Cancelar
+                  </Button>
+                </div>
+              </form>
+            </CardContent>
+          </Card>
+        )}
 
         {/* Features */}
         <div className="text-center">

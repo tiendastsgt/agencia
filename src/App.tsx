@@ -6,6 +6,7 @@ import { Toaster } from '@/components/ui/sonner'
 
 // Import pages
 import LoginPage from '@/pages/LoginPage'
+import AuthCallback from '@/pages/AuthCallback'
 import Dashboard from '@/pages/Dashboard'
 import ClientsPage from '@/pages/ClientsPage'
 import CampaignsPage from '@/pages/CampaignsPage'
@@ -29,7 +30,7 @@ const queryClient = new QueryClient({
 })
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { user, loading, isAuthorized } = useAuth()
+  const { user, loading, isAuthorized, signOut } = useAuth()
 
   if (loading) {
     return (
@@ -68,10 +69,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
               </p>
               
               <button
-                onClick={() => {
-                  const { signOut } = useAuth()
-                  signOut()
-                }}
+                onClick={signOut}
                 className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
               >
                 Cerrar Sesión
@@ -93,6 +91,7 @@ function AppRoutes() {
     return (
       <Routes>
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/auth/callback" element={<AuthCallback />} />
         <Route path="*" element={<Navigate to="/login" replace />} />
       </Routes>
     )
