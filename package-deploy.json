@@ -1,0 +1,21 @@
+{
+  "name": "marketpro-gt-deploy",
+  "version": "1.0.0",
+  "description": "Script de despliegue para MarketPro GT",
+  "main": "deploy.js",
+  "scripts": {
+    "deploy": "node deploy.js",
+    "deploy:vercel": "npx vercel --prod",
+    "deploy:netlify": "npx netlify-cli deploy --prod --dir=dist",
+    "deploy:github": "gh-pages -d dist",
+    "build": "pnpm build",
+    "preview": "pnpm preview"
+  },
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

@@ -1,0 +1,100 @@
+name: 🐛 Reporte de Bug
+description: Reporta un problema o comportamiento inesperado
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportar este bug. Por favor proporciona toda la información posible para ayudarnos a reproducir y solucionar el problema.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 📄 Descripción
+      description: Descripción clara y concisa del bug
+      placeholder: Describe qué está mal...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔄 Pasos para Reproducir
+      description: Pasos para reproducir el comportamiento
+      placeholder: |
+        1. Ir a '...'
+        2. Hacer clic en '...'
+        3. Scroll hasta '...'
+        4. Ver error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: ✅ Comportamiento Esperado
+      description: Descripción clara de lo que esperabas que pasara
+      placeholder: Esperaba que...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: ❌ Comportamiento Actual
+      description: Descripción de lo que realmente pasó
+      placeholder: En cambio pasó...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 📷 Screenshots
+      description: Si es aplicable, agrega screenshots para explicar el problema
+      placeholder: Arrastra imágenes aquí...
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 🌐 Navegador
+      description: ¿Qué navegador estás usando?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Otro
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: 📱 Dispositivo
+      description: ¿En qué dispositivo ocurre?
+      options:
+        - Desktop
+        - Móvil
+        - Tablet
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 🌍 Entorno
+      description: Información adicional del entorno
+      placeholder: |
+        OS: Windows 11
+        Navegador: Chrome 120.0.0.0
+        Versión de Node: 18.17.0
+        Otro: ...
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 📝 Contexto Adicional
+      description: Cualquier otra información relevante sobre el problema
+      placeholder: Logs de consola, configuración especial, etc.

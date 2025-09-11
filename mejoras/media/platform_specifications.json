@@ -1,0 +1,654 @@
+{
+  "platform_specifications": {
+    "version": "1.0.0",
+    "last_updated": "2025-09-10",
+    "platforms": {
+      "instagram": {
+        "platform_info": {
+          "name": "Instagram",
+          "owned_by": "Meta",
+          "primary_audience": "18-34 years old",
+          "content_focus": "Visual storytelling, lifestyle, creativity",
+          "algorithm_priorities": ["engagement rate", "time spent", "saves", "shares", "comments"]
+        },
+        "content_types": {
+          "feed_posts": {
+            "square": {
+              "resolution": "1080x1080",
+              "aspect_ratio": "1:1",
+              "min_resolution": "320x320",
+              "max_file_size": "30MB",
+              "supported_formats": ["JPG", "PNG", "GIF"],
+              "compression": "automatic",
+              "color_profile": "sRGB",
+              "best_practices": {
+                "composition": "centered subject with breathing room",
+                "colors": "vibrant and contrasting",
+                "text_overlay": "minimal, readable fonts",
+                "brand_elements": "subtle integration"
+              }
+            },
+            "portrait": {
+              "resolution": "1080x1350",
+              "aspect_ratio": "4:5",
+              "min_resolution": "320x400",
+              "max_file_size": "30MB",
+              "supported_formats": ["JPG", "PNG", "GIF"],
+              "feed_advantage": "takes up more screen real estate",
+              "best_practices": {
+                "composition": "vertical rule of thirds",
+                "text_placement": "upper or lower third",
+                "visual_hierarchy": "top-to-bottom flow"
+              }
+            },
+            "landscape": {
+              "resolution": "1080x566",
+              "aspect_ratio": "1.91:1",
+              "min_resolution": "320x168",
+              "max_file_size": "30MB",
+              "supported_formats": ["JPG", "PNG", "GIF"],
+              "usage": "less common, cropped in feed",
+              "best_practices": {
+                "content_type": "panoramic views, group photos",
+                "composition": "horizontal storytelling"
+              }
+            }
+          },
+          "stories": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "min_resolution": "320x568",
+              "max_file_size": "30MB",
+              "duration_image": "up to 15 seconds",
+              "duration_video": "up to 60 seconds",
+              "supported_formats": ["JPG", "PNG", "GIF", "MP4"]
+            },
+            "safe_zones": {
+              "total_height": 1920,
+              "safe_area_height": 1420,
+              "top_margin": 250,
+              "bottom_margin": 250,
+              "side_margin": 0,
+              "description": "Account name, profile pic, and action buttons occupy top/bottom areas"
+            },
+            "interactive_elements": {
+              "stickers": {
+                "poll": "binary choice questions",
+                "question": "open-ended responses",
+                "quiz": "multiple choice with correct answer",
+                "countdown": "event countdown timer",
+                "location": "geographic tagging",
+                "mention": "tag other accounts",
+                "hashtag": "topic categorization"
+              },
+              "best_practices": {
+                "sticker_placement": "avoid safe zone margins",
+                "text_hierarchy": "large, readable fonts",
+                "call_to_action": "clear and prominent"
+              }
+            }
+          },
+          "reels": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "min_resolution": "720x1280",
+              "max_file_size": "4GB",
+              "duration": "15 seconds to 90 seconds",
+              "frame_rate": "30fps recommended",
+              "supported_formats": ["MP4"],
+              "audio": "AAC codec preferred"
+            },
+            "algorithm_factors": {
+              "completion_rate": "percentage of video watched",
+              "replays": "immediate rewatches",
+              "saves": "bookmark for later",
+              "shares": "send to others or stories",
+              "comments": "engagement quality",
+              "audio_usage": "trending audio tracks"
+            },
+            "content_optimization": {
+              "hook": "first 3 seconds crucial",
+              "captions": "auto-generated, can be edited",
+              "cover_image": "custom thumbnail selection",
+              "trending_audio": "use popular tracks for reach",
+              "hashtags": "3-5 relevant, mix of trending and niche"
+            }
+          },
+          "igtv": {
+            "technical_specs": {
+              "resolution_vertical": "1080x1920",
+              "resolution_horizontal": "1920x1080",
+              "aspect_ratio": "9:16 or 16:9",
+              "min_duration": "60 seconds",
+              "max_duration": "60 minutes",
+              "max_file_size": "5.4GB",
+              "supported_formats": ["MP4"]
+            },
+            "status": "being phased out in favor of Reels",
+            "migration_note": "longer content moving to Feed videos"
+          }
+        },
+        "engagement_optimization": {
+          "best_posting_times": {
+            "general": ["11 AM - 1 PM", "7 PM - 9 PM"],
+            "weekdays": "Tuesday through Thursday perform best",
+            "weekends": "Saturday morning and Sunday evening"
+          },
+          "hashtag_strategy": {
+            "feed_posts": "up to 30 hashtags in caption or first comment",
+            "stories": "up to 10 hashtags, can use hashtag sticker",
+            "reels": "3-5 strategic hashtags for discovery",
+            "mix_ratio": "70% niche, 20% medium competition, 10% trending"
+          },
+          "content_pillars": {
+            "entertainment": "40% - fun, engaging, shareable",
+            "education": "30% - valuable information, tips",
+            "inspiration": "20% - motivational, aspirational",
+            "behind_scenes": "10% - authentic, personal"
+          }
+        }
+      },
+      "tiktok": {
+        "platform_info": {
+          "name": "TikTok",
+          "owned_by": "ByteDance",
+          "primary_audience": "16-24 years old",
+          "content_focus": "Short-form entertainment, trends, creativity",
+          "algorithm_priorities": ["completion rate", "shares", "comments", "likes", "follows"]
+        },
+        "content_types": {
+          "short_videos": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "min_resolution": "720x1280",
+              "max_file_size": "2GB",
+              "duration": "15 seconds to 10 minutes",
+              "frame_rate": "30fps",
+              "supported_formats": ["MP4", "MOV"],
+              "audio": "AAC, 44.1kHz"
+            },
+            "safe_zones": {
+              "total_height": 1920,
+              "top_safe_zone": 120,
+              "bottom_safe_zone": 250,
+              "description": "Profile info at top, action buttons at bottom-right"
+            },
+            "content_length_strategy": {
+              "15-30s": "highest completion rates, viral potential",
+              "30-60s": "educational content, tutorials",
+              "60s+": "storytelling, detailed explanations",
+              "optimal_length": "15-21 seconds for maximum engagement"
+            }
+          }
+        },
+        "algorithm_optimization": {
+          "for_you_page_factors": {
+            "completion_rate": "most important metric",
+            "rewatches": "immediate replays boost visibility",
+            "engagement_velocity": "likes/comments in first hour",
+            "shares": "off-platform sharing highly valued",
+            "user_interaction": "profile visits, follows"
+          },
+          "content_signals": {
+            "video_information": "captions, effects, music",
+            "device_settings": "language, location",
+            "account_settings": "not heavily weighted"
+          },
+          "trending_participation": {
+            "sounds": "use trending audio within first 24-48 hours",
+            "effects": "early adoption of new effects",
+            "hashtags": "trending challenges and topics",
+            "duets_stitches": "interact with viral content"
+          }
+        },
+        "content_optimization": {
+          "hook_strategies": {
+            "first_frame": "compelling visual or text",
+            "opening_line": "curiosity-gap creation",
+            "movement": "immediate visual interest",
+            "text_overlay": "preview of value coming"
+          },
+          "engagement_tactics": {
+            "call_to_action": "specific, clear instructions",
+            "question_ending": "encourage comments",
+            "series_content": "part 1/2/3 format",
+            "trend_integration": "current memes and formats"
+          },
+          "captions": {
+            "length": "100-150 characters optimal",
+            "keywords": "front-loaded for discovery",
+            "hashtags": "2-3 strategic tags",
+            "tone": "casual, conversational"
+          }
+        }
+      },
+      "youtube": {
+        "platform_info": {
+          "name": "YouTube",
+          "owned_by": "Google",
+          "primary_audience": "18-49 years old",
+          "content_focus": "Educational, entertainment, long-form content",
+          "algorithm_priorities": ["watch time", "session duration", "click-through rate", "audience retention"]
+        },
+        "content_types": {
+          "long_form_videos": {
+            "technical_specs": {
+              "resolution": "1920x1080",
+              "aspect_ratio": "16:9",
+              "min_resolution": "426x240",
+              "max_file_size": "256GB",
+              "max_duration": "12 hours",
+              "frame_rate": "24, 25, 30, 48, 50, 60fps",
+              "supported_formats": ["MP4", "MOV", "AVI", "WMV", "FLV", "WebM"],
+              "audio": "AAC-LC, 48kHz"
+            },
+            "recommended_specs": {
+              "resolution": "1920x1080 (1080p)",
+              "frame_rate": "30fps",
+              "bitrate": "8 Mbps",
+              "audio_bitrate": "128 kbps"
+            },
+            "content_length_strategy": {
+              "under_2min": "lower ad revenue potential",
+              "2-8min": "good for engagement, limited ads",
+              "8-15min": "optimal for monetization",
+              "15min+": "maximum ad potential, requires strong content"
+            }
+          },
+          "youtube_shorts": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "max_duration": "60 seconds",
+              "supported_formats": ["MP4", "MOV"],
+              "vertical_video_required": true
+            },
+            "algorithm_differences": {
+              "discovery": "separate Shorts shelf",
+              "monetization": "Shorts Fund, different from long-form",
+              "audience": "younger demographic overlap with TikTok",
+              "competition": "competing with TikTok and Reels"
+            }
+          },
+          "thumbnails": {
+            "technical_specs": {
+              "resolution": "1280x720",
+              "aspect_ratio": "16:9",
+              "min_width": "640px",
+              "max_file_size": "2MB",
+              "supported_formats": ["JPG", "GIF", "PNG"]
+            },
+            "optimization": {
+              "text_size": "readable on mobile screens",
+              "color_contrast": "high contrast for visibility",
+              "faces": "emotional expressions perform well",
+              "consistency": "brand colors and style",
+              "mobile_preview": "design for small screen viewing"
+            }
+          }
+        },
+        "seo_optimization": {
+          "title": {
+            "length": "60 characters for full visibility",
+            "keywords": "front-loaded primary keywords",
+            "emotional_triggers": "curiosity, urgency, benefit",
+            "clarity": "clear value proposition"
+          },
+          "description": {
+            "length": "125 characters visible in search",
+            "keywords": "natural integration of search terms",
+            "structure": "value summary in first 2 lines",
+            "call_to_action": "subscribe, like, comment prompts"
+          },
+          "tags": {
+            "quantity": "5-8 relevant tags",
+            "strategy": "mix of broad and specific terms",
+            "variations": "include keyword variations",
+            "competitor_analysis": "research successful videos in niche"
+          }
+        }
+      },
+      "linkedin": {
+        "platform_info": {
+          "name": "LinkedIn",
+          "owned_by": "Microsoft",
+          "primary_audience": "25-55 years old",
+          "content_focus": "Professional development, B2B, thought leadership",
+          "algorithm_priorities": ["professional relevance", "engagement quality", "network connections", "industry expertise"]
+        },
+        "content_types": {
+          "single_image_posts": {
+            "technical_specs": {
+              "resolution": "1200x627",
+              "aspect_ratio": "1.91:1",
+              "min_resolution": "552x276",
+              "max_file_size": "5MB",
+              "supported_formats": ["JPG", "PNG", "GIF"]
+            },
+            "square_alternative": {
+              "resolution": "1080x1080",
+              "aspect_ratio": "1:1",
+              "usage": "better for mobile feed visibility"
+            }
+          },
+          "video_posts": {
+            "technical_specs": {
+              "resolution": "1920x1080",
+              "aspect_ratio": "16:9 recommended",
+              "min_duration": "3 seconds",
+              "max_duration": "30 minutes",
+              "max_file_size": "5GB",
+              "supported_formats": ["MP4", "MOV", "WMV", "AVI"],
+              "captions": "auto-generated, editable"
+            },
+            "vertical_video": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "performance": "good mobile engagement"
+            }
+          },
+          "document_posts": {
+            "technical_specs": {
+              "max_pages": "20 pages",
+              "supported_formats": ["PDF"],
+              "max_file_size": "100MB",
+              "slide_ratio": "16:9 recommended"
+            },
+            "best_practices": {
+              "design": "professional, branded slides",
+              "content": "actionable insights per slide",
+              "navigation": "logical flow and progression"
+            }
+          },
+          "article_headers": {
+            "technical_specs": {
+              "resolution": "1200x627",
+              "aspect_ratio": "1.91:1",
+              "supported_formats": ["JPG", "PNG"],
+              "text_overlay": "minimal recommended"
+            }
+          }
+        },
+        "professional_optimization": {
+          "content_pillars": {
+            "thought_leadership": "40% - industry insights, predictions",
+            "educational": "30% - skills, how-to content",
+            "company_culture": "20% - behind-scenes, team highlights",
+            "industry_news": "10% - relevant news commentary"
+          },
+          "engagement_strategy": {
+            "posting_times": ["Tuesday-Thursday", "8-10 AM", "12-2 PM", "5-6 PM"],
+            "content_length": "1300-1700 characters optimal",
+            "hashtags": "3-5 professional, industry-specific",
+            "mentions": "tag relevant industry professionals"
+          },
+          "b2b_focus": {
+            "decision_makers": "content for C-suite, managers",
+            "industry_specific": "sector-relevant insights",
+            "professional_tone": "authoritative but approachable",
+            "value_proposition": "clear business benefits"
+          }
+        }
+      },
+      "facebook": {
+        "platform_info": {
+          "name": "Facebook",
+          "owned_by": "Meta",
+          "primary_audience": "25-54 years old",
+          "content_focus": "Community, family, news, diverse interests",
+          "algorithm_priorities": ["meaningful social interactions", "time spent", "video completion", "reactions"]
+        },
+        "content_types": {
+          "timeline_posts": {
+            "single_image": {
+              "resolution": "1200x630",
+              "aspect_ratio": "1.9:1",
+              "min_resolution": "600x315",
+              "max_file_size": "8MB",
+              "supported_formats": ["JPG", "PNG", "GIF"]
+            },
+            "square_image": {
+              "resolution": "1080x1080",
+              "aspect_ratio": "1:1",
+              "mobile_optimization": true
+            }
+          },
+          "stories": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "max_file_size": "30MB",
+              "duration": "up to 20 seconds per story",
+              "supported_formats": ["JPG", "PNG", "MP4"]
+            },
+            "cross_posting": "can share to Instagram Stories simultaneously"
+          },
+          "video_posts": {
+            "technical_specs": {
+              "resolution": "1920x1080",
+              "aspect_ratio": "16:9 recommended",
+              "max_duration": "240 minutes",
+              "max_file_size": "10GB",
+              "supported_formats": ["MP4", "MOV"]
+            },
+            "square_video": {
+              "resolution": "1080x1080",
+              "aspect_ratio": "1:1",
+              "mobile_performance": "better engagement on mobile"
+            }
+          },
+          "event_covers": {
+            "resolution": "1200x628",
+            "aspect_ratio": "1.91:1",
+            "mobile_display": "1200x675",
+            "text_overlay": "keep minimal for better reach"
+          }
+        },
+        "community_optimization": {
+          "content_strategy": {
+            "conversation_starters": "questions, polls, opinions",
+            "shareable_content": "relatable, emotional, valuable",
+            "community_focus": "local events, group interests",
+            "family_friendly": "broad audience appeal"
+          },
+          "engagement_tactics": {
+            "react_buttons": "optimize for emotional responses",
+            "comments": "encourage meaningful discussions",
+            "shares": "create share-worthy value",
+            "groups": "community-specific content"
+          }
+        }
+      },
+      "pinterest": {
+        "platform_info": {
+          "name": "Pinterest",
+          "owned_by": "Pinterest Inc.",
+          "primary_audience": "25-44 years old, 80% female",
+          "content_focus": "Inspiration, planning, shopping, DIY",
+          "algorithm_priorities": ["pin quality", "domain quality", "pinner quality", "topic relevance"]
+        },
+        "content_types": {
+          "standard_pins": {
+            "technical_specs": {
+              "resolution": "1000x1500",
+              "aspect_ratio": "2:3",
+              "min_width": "600px",
+              "max_file_size": "20MB",
+              "supported_formats": ["PNG", "JPEG"]
+            },
+            "alternative_ratios": {
+              "square": "1080x1080 (1:1)",
+              "vertical": "1000x1500 (2:3) recommended",
+              "extra_tall": "1000x2100 (maximum height)"
+            }
+          },
+          "video_pins": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16 preferred",
+              "duration": "4 seconds to 15 minutes",
+              "max_file_size": "2GB",
+              "supported_formats": ["MP4", "MOV", "M4V"]
+            }
+          },
+          "story_pins": {
+            "technical_specs": {
+              "resolution": "1080x1920",
+              "aspect_ratio": "9:16",
+              "pages": "up to 20 pages",
+              "supported_formats": ["JPG", "PNG", "MP4"]
+            }
+          }
+        },
+        "seo_optimization": {
+          "pin_titles": {
+            "length": "100 characters maximum",
+            "keywords": "front-loaded search terms",
+            "descriptive": "clear, actionable language"
+          },
+          "pin_descriptions": {
+            "length": "500 characters maximum",
+            "keywords": "natural keyword integration",
+            "hashtags": "2-3 relevant hashtags",
+            "call_to_action": "visit website, try recipe, etc."
+          },
+          "board_optimization": {
+            "board_names": "keyword-rich, descriptive",
+            "board_descriptions": "detailed, keyword-optimized",
+            "board_covers": "consistent, branded visuals"
+          }
+        }
+      },
+      "twitter": {
+        "platform_info": {
+          "name": "Twitter (X)",
+          "owned_by": "X Corp (Elon Musk)",
+          "primary_audience": "25-49 years old",
+          "content_focus": "News, real-time updates, conversations",
+          "algorithm_priorities": ["recency", "engagement velocity", "author authority", "content quality"]
+        },
+        "content_types": {
+          "in_stream_images": {
+            "technical_specs": {
+              "resolution": "1200x675",
+              "aspect_ratio": "16:9",
+              "min_resolution": "600x335",
+              "max_file_size": "5MB",
+              "supported_formats": ["PNG", "JPG", "GIF", "WEBP"]
+            },
+            "mobile_optimization": {
+              "resolution": "1080x1080",
+              "aspect_ratio": "1:1",
+              "better_mobile_display": true
+            }
+          },
+          "header_images": {
+            "resolution": "1500x500",
+            "aspect_ratio": "3:1",
+            "mobile_display": "1500x500 (centered crop)",
+            "safe_area": "center 1200x400 visible on all devices"
+          },
+          "video_posts": {
+            "technical_specs": {
+              "resolution": "1920x1080",
+              "aspect_ratio": "16:9 preferred",
+              "max_duration": "140 seconds (organic)",
+              "max_file_size": "1GB",
+              "supported_formats": ["MP4", "MOV"]
+            }
+          }
+        },
+        "engagement_optimization": {
+          "tweet_strategy": {
+            "character_limit": "280 characters",
+            "optimal_length": "71-100 characters for engagement",
+            "hashtags": "1-2 strategic hashtags",
+            "timing": "during peak user activity hours"
+          },
+          "thread_strategy": {
+            "hook_tweet": "compelling opening statement",
+            "value_progression": "each tweet adds value",
+            "conclusion": "summary or call-to-action",
+            "numbering": "1/n format for clarity"
+          }
+        }
+      }
+    },
+    "cross_platform_considerations": {
+      "aspect_ratio_strategy": {
+        "9_16_vertical": {
+          "platforms": ["TikTok", "Instagram Stories/Reels", "YouTube Shorts"],
+          "content_types": ["stories", "short-form video", "mobile-first"],
+          "optimization": "mobile viewing, thumb-stopping content"
+        },
+        "16_9_horizontal": {
+          "platforms": ["YouTube", "LinkedIn", "Facebook"],
+          "content_types": ["long-form video", "professional content", "desktop viewing"],
+          "optimization": "detailed content, desktop engagement"
+        },
+        "1_1_square": {
+          "platforms": ["Instagram Feed", "Facebook", "Pinterest"],
+          "content_types": ["feed posts", "universal content", "carousel items"],
+          "optimization": "universal compatibility, feed optimization"
+        },
+        "4_5_portrait": {
+          "platforms": ["Instagram Feed"],
+          "content_types": ["feed dominance", "mobile-optimized posts"],
+          "optimization": "maximum feed real estate"
+        }
+      },
+      "content_repurposing": {
+        "vertical_video_source": {
+          "primary": "TikTok (1080x1920)",
+          "adaptations": [
+            "Instagram Reels (same specs)",
+            "YouTube Shorts (same specs)",
+            "Instagram Stories (same specs)",
+            "Pinterest Video Pins (same specs)"
+          ]
+        },
+        "horizontal_video_source": {
+          "primary": "YouTube (1920x1080)",
+          "adaptations": [
+            "LinkedIn Video (same specs)",
+            "Facebook Video (same specs)",
+            "Twitter Video (same specs)",
+            "Instagram Feed Video (crop to 1:1)"
+          ]
+        },
+        "square_image_source": {
+          "primary": "Instagram Feed (1080x1080)",
+          "adaptations": [
+            "Facebook Post (same specs)",
+            "Pinterest Pin (extend to 2:3)",
+            "LinkedIn Post (crop to 1.91:1)",
+            "Twitter Image (same specs)"
+          ]
+        }
+      },
+      "posting_schedule_optimization": {
+        "time_zones": {
+          "est_optimal": ["9-10 AM", "12-1 PM", "7-9 PM"],
+          "pst_optimal": ["6-7 AM", "9-10 AM", "4-6 PM"],
+          "global_consideration": "stagger for international audience"
+        },
+        "day_of_week": {
+          "b2b_platforms": ["Tuesday", "Wednesday", "Thursday"],
+          "consumer_platforms": ["Wednesday", "Thursday", "Friday", "Sunday"],
+          "avoid": "Monday morning, Friday afternoon"
+        },
+        "platform_specific_timing": {
+          "instagram": "11 AM - 1 PM, 7 PM - 9 PM",
+          "tiktok": "6 AM - 10 AM, 7 PM - 9 PM",
+          "youtube": "2 PM - 4 PM, 8 PM - 11 PM",
+          "linkedin": "8 AM - 10 AM, 12 PM - 2 PM, 5 PM - 6 PM",
+          "facebook": "1 PM - 3 PM, 7 PM - 9 PM",
+          "twitter": "8 AM - 10 AM, 7 PM - 9 PM"
+        }
+      }
+    }
+  }
+}

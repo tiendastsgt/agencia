@@ -1,0 +1,430 @@
+{
+  "prompt_templates": {
+    "version": "1.0.0",
+    "last_updated": "2025-09-10",
+    "categories": {
+      "lifestyle": {
+        "instagram_feed": {
+          "modern_minimal": {
+            "id": "lifestyle_ig_minimal_001",
+            "base_prompt": "Modern minimalist lifestyle photography of {subject} in {clean_space}, natural lighting, {neutral_palette} color palette, contemporary aesthetic, professional styling, serene atmosphere",
+            "variables": {
+              "subject": ["young professional", "creative individual", "entrepreneur", "wellness enthusiast"],
+              "clean_space": ["modern apartment", "minimalist studio", "bright loft", "contemporary office"],
+              "neutral_palette": ["warm whites and beiges", "cool grays and whites", "soft pastels", "monochromatic tones"]
+            },
+            "optimization": {
+              "style_keywords": ["clean", "minimal", "contemporary", "sophisticated"],
+              "lighting": "natural window light preferred",
+              "composition": "negative space emphasis"
+            }
+          },
+          "bohemian_artistic": {
+            "id": "lifestyle_ig_boho_001",
+            "base_prompt": "Bohemian lifestyle image featuring {subject} in {artistic_setting}, warm golden lighting, {rich_colors} palette, artistic textures, creative atmosphere, layered composition",
+            "variables": {
+              "subject": ["creative artist", "free spirit", "bohemian lifestyle", "artistic soul"],
+              "artistic_setting": ["eclectic studio", "vintage space", "plant-filled room", "artistic workshop"],
+              "rich_colors": ["earthy terracotta and sage", "jewel tones", "warm sunset colors", "deep burgundy and gold"]
+            },
+            "optimization": {
+              "style_keywords": ["artistic", "creative", "warm", "textured"],
+              "lighting": "golden hour or warm artificial",
+              "composition": "layered with visual interest"
+            }
+          }
+        },
+        "tiktok_vertical": {
+          "authentic_relatable": {
+            "id": "lifestyle_tiktok_authentic_001",
+            "base_prompt": "Authentic vertical lifestyle video of {activity} in {real_space}, natural lighting, {genuine_emotion} energy, relatable moment, {casual_style} aesthetic, TikTok-native feel",
+            "variables": {
+              "activity": ["morning routine", "workspace setup", "creative process", "daily life moment"],
+              "real_space": ["actual bedroom", "real kitchen", "home office", "favorite cafe"],
+              "genuine_emotion": ["excited", "focused", "content", "motivated"],
+              "casual_style": ["effortless", "comfortable", "unpretentious", "natural"]
+            },
+            "optimization": {
+              "authenticity_focus": true,
+              "relatability_keywords": ["real", "honest", "genuine", "unfiltered"],
+              "energy_level": "medium to high"
+            }
+          }
+        }
+      },
+      "business": {
+        "linkedin_professional": {
+          "thought_leadership": {
+            "id": "business_li_thought_001",
+            "base_prompt": "Professional thought leadership image illustrating {business_concept} in {corporate_environment}, executive lighting, {authoritative_colors} palette, sophisticated composition, industry expertise visual",
+            "variables": {
+              "business_concept": ["strategic planning", "market innovation", "team leadership", "digital transformation"],
+              "corporate_environment": ["modern boardroom", "executive office", "business conference", "strategic planning room"],
+              "authoritative_colors": ["professional navy and white", "corporate blue and gray", "sophisticated black and gold", "trustworthy blue and silver"]
+            },
+            "optimization": {
+              "authority_keywords": ["professional", "executive", "strategic", "authoritative"],
+              "credibility_focus": true,
+              "industry_relevance": "high"
+            }
+          },
+          "data_insights": {
+            "id": "business_li_data_001",
+            "base_prompt": "Data-driven business visualization showing {data_story}, {professional_chart_style} presentation, {clean_design} aesthetic, {business_colors} palette, analytical clarity focus",
+            "variables": {
+              "data_story": ["growth metrics", "market analysis", "performance trends", "strategic insights"],
+              "professional_chart_style": ["clean infographic", "executive dashboard", "analytical visualization", "business intelligence"],
+              "clean_design": ["minimal modern", "corporate professional", "sophisticated clean", "data-focused"],
+              "business_colors": ["corporate blue gradients", "professional gray scale", "success green accents", "analytical blue tones"]
+            },
+            "optimization": {
+              "clarity_keywords": ["clear", "analytical", "professional", "insightful"],
+              "data_focus": true,
+              "business_appropriate": true
+            }
+          }
+        },
+        "instagram_business": {
+          "behind_scenes": {
+            "id": "business_ig_bts_001",
+            "base_prompt": "Behind-the-scenes business content showing {work_activity} in {professional_space}, authentic workspace lighting, {approachable_professional} style, team collaboration focus",
+            "variables": {
+              "work_activity": ["team brainstorming", "product development", "creative planning", "strategy meeting"],
+              "professional_space": ["modern office", "creative workspace", "collaboration area", "innovation lab"],
+              "approachable_professional": ["friendly professional", "accessible expertise", "human-centered business", "relatable professionalism"]
+            },
+            "optimization": {
+              "authenticity_balance": "professional yet human",
+              "engagement_style": "approachable expertise"
+            }
+          }
+        }
+      },
+      "product": {
+        "e_commerce": {
+          "hero_shots": {
+            "id": "product_ecom_hero_001",
+            "base_prompt": "Product hero shot of {product_type} on {premium_surface}, {commercial_lighting} lighting, {clean_background}, sharp focus, commercial photography quality, purchase-intent optimized",
+            "variables": {
+              "product_type": ["tech gadget", "beauty product", "fashion accessory", "home decor item", "lifestyle product"],
+              "premium_surface": ["marble countertop", "white seamless", "textured fabric", "wooden surface", "glass platform"],
+              "commercial_lighting": ["soft box studio", "natural bright", "professional three-point", "clean even"],
+              "clean_background": ["pure white", "subtle gradient", "minimal texture", "neutral tone"]
+            },
+            "optimization": {
+              "conversion_focus": true,
+              "product_clarity": "maximum detail",
+              "purchase_psychology": "desire creation"
+            }
+          },
+          "lifestyle_context": {
+            "id": "product_ecom_lifestyle_001",
+            "base_prompt": "Lifestyle product photography showing {product} in {usage_context}, natural environment lighting, {aspirational_setting}, {target_demographic} using product, lifestyle integration focus",
+            "variables": {
+              "product": ["skincare routine", "tech in workspace", "fashion styling", "home organization", "wellness product"],
+              "usage_context": ["daily routine", "work environment", "social setting", "home space", "active lifestyle"],
+              "aspirational_setting": ["beautiful modern home", "stylish workspace", "trendy cafe", "scenic outdoor", "luxury environment"],
+              "target_demographic": ["young professional", "creative millennial", "wellness enthusiast", "style-conscious individual"]
+            },
+            "optimization": {
+              "aspiration_keywords": ["desirable", "lifestyle", "aspirational", "premium"],
+              "relatability_balance": "attainable luxury"
+            }
+          }
+        },
+        "social_proof": {
+          "user_generated_style": {
+            "id": "product_ugc_style_001",
+            "base_prompt": "User-generated content style image of {product_experience}, {authentic_setting} environment, natural casual lighting, {genuine_satisfaction} emotion, realistic usage scenario",
+            "variables": {
+              "product_experience": ["unboxing moment", "first use experience", "daily routine integration", "problem-solving moment"],
+              "authentic_setting": ["real home", "actual workspace", "genuine lifestyle", "true environment"],
+              "genuine_satisfaction": ["delighted surprise", "satisfied contentment", "excited discovery", "relieved solution"]
+            },
+            "optimization": {
+              "authenticity_keywords": ["real", "genuine", "authentic", "honest"],
+              "trust_building": true
+            }
+          }
+        }
+      },
+      "educational": {
+        "tutorial_content": {
+          "step_by_step": {
+            "id": "educational_tutorial_001",
+            "base_prompt": "Educational tutorial visualization of {learning_topic}, {instructional_style} presentation, {clear_progression} flow, {visual_aid} elements, knowledge transfer optimized",
+            "variables": {
+              "learning_topic": ["creative skill", "business process", "technical knowledge", "life skill", "professional development"],
+              "instructional_style": ["step-by-step breakdown", "visual demonstration", "comparative analysis", "hands-on learning"],
+              "clear_progression": ["numbered sequence", "visual timeline", "progressive difficulty", "milestone markers"],
+              "visual_aid": ["diagrams and charts", "before-after comparisons", "highlighted key points", "interactive elements"]
+            },
+            "optimization": {
+              "learning_keywords": ["clear", "instructional", "educational", "helpful"],
+              "comprehension_focus": true
+            }
+          },
+          "quick_tips": {
+            "id": "educational_tips_001",
+            "base_prompt": "Quick tip visualization about {tip_category}, {attention_grabbing} design, {actionable_advice} focus, {memorable_presentation} style, immediate value delivery",
+            "variables": {
+              "tip_category": ["productivity hack", "creative technique", "business insight", "wellness tip", "technology shortcut"],
+              "attention_grabbing": ["bold visual contrast", "surprising fact presentation", "problem-solution format", "curiosity gap opening"],
+              "actionable_advice": ["specific steps", "practical application", "immediate implementation", "tangible results"],
+              "memorable_presentation": ["visual metaphor", "story-driven", "relatable example", "impactful statistics"]
+            },
+            "optimization": {
+              "value_keywords": ["useful", "practical", "actionable", "valuable"],
+              "shareability": "high practical value"
+            }
+          }
+        },
+        "infographic_style": {
+          "data_storytelling": {
+            "id": "educational_infographic_001",
+            "base_prompt": "Infographic design presenting {information_topic}, {visual_hierarchy} layout, {data_visualization} elements, {engaging_design} aesthetic, information clarity maximized",
+            "variables": {
+              "information_topic": ["industry statistics", "process explanation", "comparison analysis", "trend visualization", "educational facts"],
+              "visual_hierarchy": ["clear information flow", "progressive disclosure", "importance-based sizing", "guided reading path"],
+              "data_visualization": ["charts and graphs", "icon representations", "comparative visuals", "statistical displays"],
+              "engaging_design": ["modern minimal", "colorful engaging", "professional clean", "creative illustrated"]
+            },
+            "optimization": {
+              "information_clarity": true,
+              "visual_appeal": "education-focused",
+              "retention_optimization": true
+            }
+          }
+        }
+      },
+      "entertainment": {
+        "viral_content": {
+          "trend_based": {
+            "id": "entertainment_viral_001",
+            "base_prompt": "Viral trend content featuring {trend_element}, {high_energy} presentation, {shareable_moment} focus, {current_trend} integration, maximum engagement optimization",
+            "variables": {
+              "trend_element": ["popular challenge", "meme format", "viral dance", "comedy trend", "transformation reveal"],
+              "high_energy": ["dynamic movement", "exciting progression", "surprising twist", "emotional peak"],
+              "shareable_moment": ["peak entertainment", "relatable humor", "impressive skill", "unexpected outcome"],
+              "current_trend": ["TikTok trending", "Instagram popular", "cross-platform viral", "generational appeal"]
+            },
+            "optimization": {
+              "virality_keywords": ["trending", "shareable", "entertaining", "engaging"],
+              "algorithm_friendly": true
+            }
+          },
+          "comedy_format": {
+            "id": "entertainment_comedy_001",
+            "base_prompt": "Comedy content with {humor_style} approach, {setup_punchline} structure, {relatable_scenario} context, {timing_emphasis} delivery, entertainment value maximized",
+            "variables": {
+              "humor_style": ["observational comedy", "situational humor", "self-deprecating", "absurd comedy"],
+              "setup_punchline": ["classic joke structure", "surprise reveal", "expectation subversion", "callback humor"],
+              "relatable_scenario": ["everyday situation", "universal experience", "common frustration", "shared moment"],
+              "timing_emphasis": ["perfect comedic timing", "build-up and release", "rhythm-based", "pause utilization"]
+            },
+            "optimization": {
+              "entertainment_keywords": ["funny", "hilarious", "entertaining", "clever"],
+              "shareability_focus": "humor-driven"
+            }
+          }
+        }
+      },
+      "seasonal": {
+        "holiday_themed": {
+          "festive_celebration": {
+            "id": "seasonal_holiday_001",
+            "base_prompt": "{holiday_type} themed content with {festive_elements} decoration, {seasonal_colors} palette, {celebration_mood} atmosphere, {traditional_modern} style balance",
+            "variables": {
+              "holiday_type": ["Christmas", "New Year", "Valentine's Day", "Easter", "Halloween", "Thanksgiving"],
+              "festive_elements": ["traditional decorations", "seasonal symbols", "holiday iconography", "cultural elements"],
+              "seasonal_colors": ["traditional holiday colors", "modern festive palette", "elegant seasonal tones", "bright celebration colors"],
+              "celebration_mood": ["joyful festive", "elegant sophisticated", "cozy intimate", "energetic celebratory"],
+              "traditional_modern": ["classic traditional", "contemporary twist", "modern minimal", "fusion style"]
+            },
+            "optimization": {
+              "seasonal_relevance": true,
+              "emotional_connection": "holiday spirit",
+              "cultural_sensitivity": true
+            }
+          },
+          "seasonal_transition": {
+            "id": "seasonal_transition_001",
+            "base_prompt": "{season_change} transition content showing {seasonal_shift} elements, {transitional_lighting} atmosphere, {seasonal_activities} focus, {nature_urban} setting",
+            "variables": {
+              "season_change": ["spring awakening", "summer energy", "autumn transformation", "winter preparation"],
+              "seasonal_shift": ["nature changes", "lifestyle adaptation", "wardrobe transition", "activity evolution"],
+              "transitional_lighting": ["soft spring light", "bright summer rays", "golden autumn glow", "crisp winter clarity"],
+              "seasonal_activities": ["outdoor adventures", "cozy indoor moments", "seasonal sports", "holiday preparation"],
+              "nature_urban": ["natural outdoor", "city seasonal", "indoor cozy", "mixed environment"]
+            },
+            "optimization": {
+              "temporal_relevance": true,
+              "seasonal_psychology": "transition emotions"
+            }
+          }
+        }
+      }
+    },
+    "platform_optimizations": {
+      "instagram": {
+        "feed_posts": {
+          "engagement_modifiers": [
+            "Instagram-worthy composition",
+            "feed aesthetic alignment",
+            "thumb-stopping visual",
+            "story-worthy moment",
+            "share-encouraging design"
+          ],
+          "hashtag_friendly_elements": [
+            "trendy aesthetic",
+            "lifestyle aspiration",
+            "relatable content",
+            "photogenic quality",
+            "community connection"
+          ]
+        },
+        "stories": {
+          "engagement_modifiers": [
+            "vertical storytelling optimized",
+            "interactive element ready",
+            "swipe-up compelling",
+            "poll-question friendly",
+            "behind-scenes authentic"
+          ],
+          "technical_considerations": [
+            "safe zone compliant",
+            "text overlay space",
+            "sticker placement area",
+            "vertical composition flow"
+          ]
+        },
+        "reels": {
+          "engagement_modifiers": [
+            "hook in first 3 seconds",
+            "watch time optimized",
+            "replay value high",
+            "sound-on designed",
+            "trending audio compatible"
+          ],
+          "algorithm_friendly": [
+            "completion rate focused",
+            "share-worthy content",
+            "comment-encouraging",
+            "save-valuable information"
+          ]
+        }
+      },
+      "tiktok": {
+        "video_content": {
+          "engagement_modifiers": [
+            "TikTok-native feel",
+            "Gen Z authentic",
+            "trend-aware content",
+            "viral potential high",
+            "duet-friendly format"
+          ],
+          "algorithm_optimization": [
+            "watch time maximized",
+            "interaction encouraging",
+            "share-motivating",
+            "comment-sparking",
+            "follow-worthy creator"
+          ]
+        }
+      },
+      "youtube": {
+        "long_form": {
+          "engagement_modifiers": [
+            "thumbnail clickable",
+            "watch time optimized",
+            "chapter-friendly structure",
+            "retention hooks throughout",
+            "subscriber conversion focused"
+          ],
+          "seo_optimization": [
+            "keyword optimized",
+            "searchability enhanced",
+            "topic authority building",
+            "related video friendly"
+          ]
+        },
+        "shorts": {
+          "engagement_modifiers": [
+            "shorts algorithm optimized",
+            "vertical attention grabbing",
+            "quick value delivery",
+            "loop-worthy content",
+            "discovery friendly"
+          ]
+        }
+      },
+      "linkedin": {
+        "professional_content": {
+          "engagement_modifiers": [
+            "professional credibility",
+            "thought leadership quality",
+            "industry relevance high",
+            "conversation starting",
+            "networking valuable"
+          ],
+          "business_optimization": [
+            "B2B appropriate",
+            "executive appeal",
+            "industry insight rich",
+            "career development focused"
+          ]
+        }
+      }
+    },
+    "variable_sets": {
+      "brand_consistency": {
+        "color_palettes": {
+          "tech_startup": ["electric blue", "clean white", "gray accents", "success green"],
+          "luxury_brand": ["deep gold", "elegant black", "cream white", "champagne"],
+          "health_wellness": ["sage green", "natural beige", "pure white", "earth brown"],
+          "creative_agency": ["vibrant orange", "deep purple", "bright yellow", "modern gray"]
+        },
+        "style_aesthetics": {
+          "modern_minimal": ["clean lines", "negative space", "simple composition", "contemporary"],
+          "warm_inviting": ["cozy atmosphere", "welcoming feel", "human connection", "comfortable"],
+          "bold_energetic": ["high contrast", "dynamic composition", "vibrant colors", "movement"],
+          "sophisticated_elegant": ["refined quality", "premium feel", "luxury appeal", "polished"]
+        }
+      },
+      "audience_demographics": {
+        "gen_z": {
+          "style_preferences": ["authentic", "unfiltered", "diverse", "trend-aware"],
+          "content_interests": ["social justice", "creativity", "technology", "sustainability"],
+          "platform_behavior": ["short-form video", "interactive content", "peer influence", "viral trends"]
+        },
+        "millennials": {
+          "style_preferences": ["aspirational", "lifestyle-focused", "quality-conscious", "brand-aware"],
+          "content_interests": ["career development", "wellness", "travel", "personal finance"],
+          "platform_behavior": ["visual storytelling", "community engagement", "educational content", "authentic brands"]
+        },
+        "professionals": {
+          "style_preferences": ["polished", "credible", "informative", "industry-relevant"],
+          "content_interests": ["professional development", "industry insights", "networking", "thought leadership"],
+          "platform_behavior": ["longer-form content", "professional networking", "knowledge sharing", "career advancement"]
+        }
+      },
+      "contextual_timing": {
+        "morning_content": {
+          "mood_descriptors": ["energetic", "fresh start", "motivated", "optimistic"],
+          "activity_focus": ["morning routines", "productivity tips", "healthy habits", "goal setting"],
+          "lighting_preference": ["bright natural", "clean crisp", "energizing", "fresh daylight"]
+        },
+        "evening_content": {
+          "mood_descriptors": ["reflective", "cozy", "relaxed", "contemplative"],
+          "activity_focus": ["evening routines", "self-care", "reflection", "relaxation"],
+          "lighting_preference": ["warm golden", "soft ambient", "intimate", "cozy glow"]
+        },
+        "weekend_content": {
+          "mood_descriptors": ["leisurely", "fun", "social", "exploratory"],
+          "activity_focus": ["hobbies", "social activities", "adventures", "personal projects"],
+          "lighting_preference": ["natural outdoor", "lifestyle casual", "social gathering", "adventure ready"]
+        }
+      }
+    }
+  }
+}

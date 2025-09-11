@@ -1,0 +1,78 @@
+name: ✨ Solicitud de Feature
+description: Sugiere una nueva funcionalidad para el proyecto
+title: "[FEATURE]: "
+labels: ["enhancement", "feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por sugerir una nueva funcionalidad! Tu input es muy valioso para mejorar MarketPro GT.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🔍 Problema Relacionado
+      description: ¿Esta feature resuelve un problema? Descríbelo
+      placeholder: Estoy frustrado cuando...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Solución Propuesta
+      description: Descripción clara de lo que quieres que pase
+      placeholder: Me gustaría que...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🗒️ Alternativas Consideradas
+      description: Describe alternativas que hayas considerado
+      placeholder: Otras opciones podrían ser...
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 🎯 Prioridad
+      description: ¿Qué tan importante es esta feature?
+      options:
+        - Baja - Nice to have
+        - Media - Importante para algunos usuarios
+        - Alta - Crítica para muchos usuarios
+        - Urgente - Bloqueante
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Categoría
+      description: ¿A qué área pertenece esta feature?
+      options:
+        - UI/UX
+        - A/B Testing
+        - IA/ML
+        - Integraciones
+        - Analytics
+        - Performance
+        - Seguridad
+        - Otro
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 🔧 Detalles de Implementación
+      description: Si tienes ideas sobre cómo implementar esto
+      placeholder: Podría implementarse usando...
+
+  - type: textarea
+    id: context
+    attributes:
+      label: 📝 Contexto Adicional
+      description: Screenshots, mockups, referencias, etc.
+      placeholder: Links, imágenes, ejemplos...
