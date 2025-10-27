@@ -1,0 +1,36 @@
+{
+  "nombre": "Nutrición Familiar Económica: Come Bien, Gasta Menos",
+  "nivel": 0,
+  "objetivos": [
+    "Mejorar nutrición familiar 40% reduciendo costos alimentarios 25%",
+    "Eliminar malnutrición infantil en el hogar mediante alimentos locales",
+    "Crear menús nutritivos con presupuesto Q1,500-2,000 mensuales",
+    "Desarrollar huertos familiares complementarios"
+  ],
+  "resumen": "Curso práctico para combatir la malnutrición y el alto costo de vida mediante estrategias inteligentes de alimentación que optimizan presupuesto y salud.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a mejorar la nutrición de tu familia en 40% mientras reducís tus gastos en alimentación en 25%, incluso con presupuestos limitados.",
+  "contenido": [
+    {
+      "módulo": "Nutrición Familiar Guatemalteca",
+      "actividades": ["Análisis de necesidades nutricionales por edad", "Identificación de superalimentos locales accesibles", "Taller de combate a malnutrición infantil"]
+    },
+    {
+      "módulo": "Presupuesto y Planificación Nutricional",
+      "actividades": ["Elaboración de menús semanales económicos", "Planificación de compras con Q1,500-2,000", "Taller de optimización de presupuesto alimentario"]
+    },
+    {
+      "módulo": "Preparación y Cocina Nutritiva",
+      "actividades": ["Técnicas de cocción que preservan nutrientes", "Preparación de platillos hipernutritivos económicos", "Taller de aprovechamiento integral de alimentos"]
+    },
+    {
+      "módulo": "Producción Complementaria",
+      "actividades": ["Implementación de huertos familiares básicos", "Cultivo de hierbas y vegetales en espacios reducidos", "Técnicas de preservación y almacenamiento"]
+    }
+  ],
+  "duración": "5 semanas (10 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: '3 comidas nutritivas por menos de Q50'",
+  "requisitos_profesor": "Nutricionista con experiencia en seguridad alimentaria y conocimiento de realidad socioeconómica guatemalteca",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 2
+}

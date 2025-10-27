@@ -1,0 +1,36 @@
+{
+  "nombre": "Liderazgo Servicial: Lidera desde el Corazón",
+  "nivel": 0,
+  "objetivos": [
+    "Desarrollar liderazgo basado en el servicio a los demás",
+    "Aplicar principios cristianos católicos en el ejercicio del liderazgo",
+    "Inspirar equipos y comunidades desde valores sólidos",
+    "Crear ambientes colaborativos y de crecimiento mutuo"
+  ],
+  "resumen": "Curso sobre liderazgo servicial inspirado en valores cristianos católicos, para liderar desde el ejemplo, servicio y humildad.",
+  "público_objetivo": "Líderes comunitarios, padres de familia y educadores",
+  "razón_para_tomarlo": "Desarrollá un liderazgo auténtico que sirva a los demás, inspirando con el ejemplo y construyendo comunidades basadas en valores cristianos.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos del Liderazgo Servicial",
+      "actividades": ["Estudio de modelos bíblicos de liderazgo", "Principios de servicio y humildad", "Autoevaluación de estilo de liderazgo"]
+    },
+    {
+      "módulo": "Liderazgo en la Familia",
+      "actividades": ["Liderazgo servicial en el hogar", "Formación de hijos con valores", "Toma de decisiones familiares consensuadas"]
+    },
+    {
+      "módulo": "Liderazgo Comunitario",
+      "actividades": ["Servicio en comunidades parroquiales", "Desarrollo de proyectos comunitarios", "Coordinación de grupos y equipos"]
+    },
+    {
+      "módulo": "Crecimiento Continuo",
+      "actividades": ["Desarrollo espiritual del líder", "Mentoría y acompañamiento", "Evaluación y mejora continua"]
+    }
+  ],
+  "duración": "5 semanas (10 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Primeros pasos en liderazgo servicial'",
+  "requisitos_profesor": "Líder comunitario o religioso con experiencia en formación de líderes y conocimiento de doctrina social católica",
+  "ruta": "✨ RUTA 5: CRECIMIENTO PERSONAL",
+  "créditos": 2
+}

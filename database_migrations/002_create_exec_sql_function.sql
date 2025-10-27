@@ -21,3 +21,14 @@ $$;
 -- Grant execute permission to authenticated users
 GRANT EXECUTE ON FUNCTION exec_sql(TEXT) TO authenticated;
 
+
+
+
+
+
+
+
+
+
+
+

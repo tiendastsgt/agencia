@@ -1,0 +1,36 @@
+{
+  "nombre": "Emprendimiento con Propósito: Negocio desde tus Valores",
+  "nivel": 0,
+  "objetivos": [
+    "Identificar oportunidades de negocio alineadas con valores personales",
+    "Desarrollar plan de negocios realista y con propósito",
+    "Aplicar principios éticos en todas las operaciones del negocio",
+    "Balancear vida familiar y empresarial de forma sostenible"
+  ],
+  "resumen": "Curso para crear negocios con propósito, alineados con valores personales y que contribuyan positivamente a la comunidad y el medio ambiente.",
+  "público_objetivo": "Emprendedores y padres de familia",
+  "razón_para_tomarlo": "Creá un negocio con propósito que refleje tus valores, genere ingresos sostenibles y contribuya positivamente a tu comunidad y familia.",
+  "contenido": [
+    {
+      "módulo": "Identificación de Propósito",
+      "actividades": ["Clarificación de valores personales", "Identificación de pasiones y talentos", "Análisis de necesidades comunitarias"]
+    },
+    {
+      "módulo": "Planificación con Propósito",
+      "actividades": ["Desarrollo de modelo de negocio con valores", "Planificación financiera ética", "Estrategias de impacto social"]
+    },
+    {
+      "módulo": "Implementación Ética",
+      "actividades": ["Prácticas laborales justas", "Sostenibilidad ambiental", "Relaciones comunitarias positivas"]
+    },
+    {
+      "módulo": "Balance y Crecimiento",
+      "actividades": ["Balance vida-trabajo familiar", "Escalamiento con valores intactos", "Medición de impacto real"]
+    }
+  ],
+  "duración": "6 semanas (12 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Encuentra tu negocio con propósito'",
+  "requisitos_profesor": "Emprendedor social o consultor de negocios con experiencia en empresas con propósito",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 3
+}

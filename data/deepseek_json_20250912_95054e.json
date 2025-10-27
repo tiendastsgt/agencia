@@ -1,0 +1,36 @@
+{
+  "nombre": "Marketing Consciente: Vende con Autenticidad",
+  "nivel": 0,
+  "objetivos": [
+    "Desarrollar estrategias de marketing éticas y transparentes",
+    "Crear mensajes publicitarios con valores genuinos",
+    "Usar redes sociales de forma constructiva y auténtica",
+    "Construir marcas con propósito e impacto positivo"
+  ],
+  "resumen": "Curso que enseña a promocionar productos o servicios de forma ética y auténtica, construyendo confianza e impacto positivo en la comunidad.",
+  "público_objetivo": "Emprendedores, pequeños empresarios y creadores de contenido",
+  "razón_para_tomarlo": "Aprendé a promocionar tu negocio o proyecto de forma auténtica y ética, construyendo una marca con valores que genere confianza real.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de Marketing Ético",
+      "actividades": ["Principios de marketing consciente", "Autenticidad vs manipulación", "Valores como ventaja competitiva"]
+    },
+    {
+      "módulo": "Comunicación Auténtica",
+      "actividades": ["Storytelling genuino", "Transparencia en mensajes", "Comunicación de valores reales"]
+    },
+    {
+      "módulo": "Redes Sociales Conscientes",
+      "actividades": ["Uso positivo de plataformas digitales", "Creación de comunidad auténtica", "Contenido que suma valor"]
+    },
+    {
+      "módulo": "Marca con Propósito",
+      "actividades": ["Desarrollo de identidad de marca auténtica", "Estrategias de crecimiento sostenible", "Medición de impacto real"]
+    }
+  ],
+  "duración": "4 semanas (8 sesions de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Marketing auténtico para tu proyecto'",
+  "requisitos_profesor": "Experto en marketing ético o comunicador con experiencia in branding consciente",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 2
+}

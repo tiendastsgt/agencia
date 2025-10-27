@@ -1,0 +1,259 @@
+{
+  "infographic_data": {
+    "id": "apicultura_urbana_course",
+    "name": "Apicultura Urbana - Curso de Producción Sostenible",
+    "description": "Infografía del curso de apicultura urbana para producción de miel sostenible",
+    "category": "education",
+    "data": {
+      "title": "Apicultura Urbana",
+      "subtitle": "Produce tu Propia Miel de Forma Sostenible",
+      "description": "Curso introductorio sobre apicultura urbana y sostenible para instalar colmenas, producir miel y contribuir al medio ambiente desde espacios reducidos.",
+      "theme": {
+        "name": "Nature Green",
+        "primaryColor": "#10B981",
+        "secondaryColor": "#059669",
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#1F2937",
+        "accentColor": "#F59E0B",
+        "fontFamily": "Inter",
+        "style": "modern"
+      },
+      "layout": {
+        "type": "vertical",
+        "columns": 1,
+        "sections": 7,
+        "spacing": "normal"
+      },
+      "sections": [
+        {
+          "id": "header",
+          "type": "header",
+          "title": "Apicultura Urbana",
+          "content": {
+            "text": {
+              "content": "Produce tu Propia Miel de Forma Sostenible",
+              "format": "paragraph"
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 100,
+            "height": 15
+          }
+        },
+        {
+          "id": "course_info",
+          "type": "stats",
+          "title": "Información del Curso",
+          "content": {
+            "stats": {
+              "items": [
+                {
+                  "label": "Duración",
+                  "value": "6 semanas",
+                  "unit": "",
+                  "icon": "⏱️",
+                  "color": "#10B981"
+                },
+                {
+                  "label": "Sesiones",
+                  "value": "12",
+                  "unit": "sesiones",
+                  "icon": "📚",
+                  "color": "#3B82F6"
+                },
+                {
+                  "label": "Horas por sesión",
+                  "value": "2",
+                  "unit": "horas",
+                  "icon": "🕐",
+                  "color": "#8B5CF6"
+                },
+                {
+                  "label": "Créditos",
+                  "value": "3",
+                  "unit": "créditos",
+                  "icon": "🎓",
+                  "color": "#F59E0B"
+                }
+              ],
+              "layout": "horizontal"
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 15,
+            "width": 100,
+            "height": 20
+          }
+        },
+        {
+          "id": "target_audience",
+          "type": "text",
+          "title": "Público Objetivo",
+          "content": {
+            "text": {
+              "content": "Jóvenes adultos y padres de familia interesados en la autosuficiencia del hogar y la conservación del medio ambiente.",
+              "format": "paragraph"
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 35,
+            "width": 100,
+            "height": 10
+          }
+        },
+        {
+          "id": "objectives",
+          "type": "list",
+          "title": "Objetivos del Curso",
+          "content": {
+            "list": {
+              "items": [
+                {
+                  "text": "Iniciarse en la apicultura de forma segura y responsable",
+                  "icon": "🐝",
+                  "color": "#10B981",
+                  "highlight": true
+                },
+                {
+                  "text": "Contribuir a la conservación de polinizadores",
+                  "icon": "🌱",
+                  "color": "#059669"
+                },
+                {
+                  "text": "Producir miel para consumo familiar",
+                  "icon": "🍯",
+                  "color": "#F59E0B"
+                },
+                {
+                  "text": "Generar posible fuente de ingresos adicional",
+                  "icon": "💰",
+                  "color": "#8B5CF6"
+                }
+              ],
+              "type": "checkmark"
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 45,
+            "width": 100,
+            "height": 25
+          }
+        },
+        {
+          "id": "modules",
+          "type": "timeline",
+          "title": "Módulos del Curso",
+          "content": {
+            "timeline": {
+              "items": [
+                {
+                  "date": "Semana 1-2",
+                  "title": "Fundamentos de Apicultura",
+                  "description": "Conocimiento de biología de abejas, equipos y seguridad, selección de ubicaciones",
+                  "icon": "📖",
+                  "color": "#10B981"
+                },
+                {
+                  "date": "Semana 3-4",
+                  "title": "Instalación y Manejo",
+                  "description": "Instalación de colmenas urbanas, manejo básico de colonias, control natural de plagas",
+                  "icon": "🏠",
+                  "color": "#3B82F6"
+                },
+                {
+                  "date": "Semana 5",
+                  "title": "Producción Sostenible",
+                  "description": "Técnicas de extracción de miel, procesamiento y envasado, mantenimiento de colmenas",
+                  "icon": "🍯",
+                  "color": "#F59E0B"
+                },
+                {
+                  "date": "Semana 6",
+                  "title": "Comercialización",
+                  "description": "Valor agregado de productos apícolas, estrategias de venta local, normativas y permisos",
+                  "icon": "💼",
+                  "color": "#8B5CF6"
+                }
+              ],
+              "orientation": "vertical"
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 70,
+            "width": 100,
+            "height": 20
+          }
+        },
+        {
+          "id": "pilot_workshop",
+          "type": "text",
+          "title": "Modalidad Piloto",
+          "content": {
+            "text": {
+              "content": "Taller de 3 horas: 'Introducción a la apicultura urbana' - Una experiencia práctica para conocer los fundamentos antes de comprometerse con el curso completo.",
+              "format": "paragraph"
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 90,
+            "width": 100,
+            "height": 10
+          }
+        }
+      ],
+      "metadata": {
+        "author": "MarketPro GT",
+        "createdAt": "2025-09-15T00:00:00Z",
+        "updatedAt": "2025-09-15T00:00:00Z",
+        "tags": ["apicultura", "urbana", "sostenible", "miel", "educación", "autosuficiencia"],
+        "category": "education",
+        "language": "es",
+        "version": "1.0.0",
+        "clientId": "apicultura_urbana",
+        "campaignId": "curso_apicultura_2025"
+      },
+      "style": {
+        "borderRadius": 12,
+        "shadow": true,
+        "border": false,
+        "backgroundPattern": "dots",
+        "watermark": {
+          "text": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+          "opacity": 0.1,
+          "position": "bottom-center"
+        }
+      }
+    }
+  },
+  "prompt_generated": "Create a professional modern infographic titled 'Apicultura Urbana' with subtitle 'Produce tu Propia Miel de Forma Sostenible'. The infographic should have a vertical layout with 7 main sections. Section 1: header section with title and subtitle. Section 2: statistics section with 4 key metrics showing duration (6 weeks), sessions (12), hours per session (2), and credits (3). Section 3: text section describing target audience as young adults and parents interested in home self-sufficiency. Section 4: list section with 4 objectives including safe beekeeping initiation, pollinator conservation, family honey production, and additional income generation. Section 5: timeline section with 4 modules covering fundamentals, installation and management, sustainable production, and commercialization over 6 weeks. Section 6: text section describing the 3-hour pilot workshop. Section 7: footer with course route information. Use a modern design style with primary color #10B981 (nature green) and secondary color #059669. The background should be #FFFFFF with #1F2937 text. Include professional typography using Inter font family. Make it visually appealing, modern, and suitable for educational content. Ensure all text is readable and the layout is clean and organized. High quality, professional design, suitable for print and digital use. Clean typography, proper spacing, and visual hierarchy. Include bee and honey-related visual elements. Modern, engaging, and educational design.",
+  "usage_instructions": {
+    "description": "Cómo usar este JSON para generar la infografía del curso de apicultura urbana",
+    "steps": [
+      "1. Copia el contenido del campo 'data' del JSON",
+      "2. Ve a la página de infografías (/infographics)",
+      "3. Selecciona 'Crear Nueva' o usa un template educativo",
+      "4. Pega el JSON en el editor o configura manualmente",
+      "5. Personaliza colores si es necesario (verde para naturaleza)",
+      "6. Genera la infografía con DALL-E 3 o Stability AI",
+      "7. Descarga y usa para promoción del curso"
+    ],
+    "customization_tips": [
+      "Los colores verdes (#10B981, #059669) representan naturaleza y sostenibilidad",
+      "Los iconos de abejas (🐝) y miel (🍯) refuerzan el tema apícola",
+      "El timeline vertical muestra la progresión del curso claramente",
+      "Las estadísticas destacan la duración y estructura del curso",
+      "El watermark incluye la ruta de autosuficiencia del hogar"
+    ]
+  }
+}
+
+
+
+

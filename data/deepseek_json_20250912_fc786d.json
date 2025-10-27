@@ -1,0 +1,36 @@
+{
+  "nombre": "Ahorro Inteligente: Maximiza tu Dinero en Cada Compra",
+  "nivel": 0,
+  "objetivos": [
+    "Reducir gastos familiares mensuales en Q300-500 mediante técnicas comprobadas",
+    "Desarrollar habilidades de planificación presupuestaria familiar",
+    "Identificar productos de mayor valor nutricional/precio en Mixco",
+    "Crear redes de compra comunitaria para mejores precios"
+  ],
+  "resumen": "Curso práctico para optimizar las compras del hogar en el contexto de inflación y alto costo de vida en Guatemala, con enfoque en ahorro tangible.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé técnicas comprobadas que te permitirán ahorrar Q300-500 mensuales en tus compras familiares, incluso en tiempos de inflación.",
+  "contenido": [
+    {
+      "módulo": "Diagnóstico Familiar de Gastos",
+      "actividades": ["Análisis de gastos mensuales actuales", "Identificación de fugas de dinero", "Taller de establecimiento de metas de ahorro"]
+    },
+    {
+      "módulo": "Mapeo de Proveedores Locales",
+      "actividades": ["Mapeo de mercados y tiendas en tu zona", "Comparativa de precios por establecimiento", "Identificación de temporadas de mejores precios"]
+    },
+    {
+      "módulo": "Planificación Estratégica de Compras",
+      "actividades": ["Elaboración de listas de compras inteligentes", "Técnicas de compra al por mayor", "Planificación mensual de abastecimiento"]
+    },
+    {
+      "módulo": "Redes de Compra Comunitaria",
+      "actividades": ["Formación de grupos de compra colectiva", "Negociación de descuentos por volumen", "Organización de compras comunitarias"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Ahorrá Q100 en tu próxima compra'",
+  "requisitos_profesor": "Experto en economía doméstica con conocimiento del mercado guatemalteco y técnicas de ahorro comprobadas",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 2
+}

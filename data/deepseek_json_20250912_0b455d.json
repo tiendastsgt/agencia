@@ -1,0 +1,36 @@
+{
+  "nombre": "Apicultura Urbana: Produce tu Propia Miel de Forma Sostenible",
+  "nivel": 0,
+  "objetivos": [
+    "Iniciarse en la apicultura de forma segura y responsable",
+    "Contribuir a la conservación de polinizadores",
+    "Producir miel para consumo familiar",
+    "Generar posible fuente de ingresos adicional"
+  ],
+  "resumen": "Curso introductorio sobre apicultura urbana y sostenible para instalar colmenas, producir miel y contribuir al medio ambiente desde espacios reducidos.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé apicultura urbana y producí tu propia miel mientras contribuís a la conservación del medio ambiente y generás posible ingreso adicional.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de Apicultura",
+      "actividades": ["Conocimiento de biología de abejas", "Taller de equipos y seguridad", "Selección de ubicaciones apropiadas"]
+    },
+    {
+      "módulo": "Instalación y Manejo",
+      "actividades": ["Instalación de colmenas urbanas", "Manejo básico de colonias", "Control natural de plagas"]
+    },
+    {
+      "módulo": "Producción Sostenible",
+      "actividades": ["Técnicas de extracción de miel", "Procesamiento y envasado", "Mantenimiento de colmenas"]
+    },
+    {
+      "módulo": "Comercialización",
+      "actividades": ["Valor agregado de productos apícolas", "Estrategias de venta local", "Normativas and permisos"]
+    }
+  ],
+  "duración": "6 semanas (12 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Introducción a la apicultura urbana'",
+  "requisitos_profesor": "Apicultor certificado con experiencia en apicultura urbana and manejo sostenible",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 3
+}

@@ -1,0 +1,31 @@
+<svg width="1200" height="1600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="autosuficienciaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+        <stop offset="30%" style="stop-color:#FFA500;stop-opacity:1" />
+        <stop offset="70%" style="stop-color:#8B4513;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+      </linearGradient>
+      <pattern id="honeycombPattern" x="0" y="0" width="60" height="52" patternUnits="userSpaceOnUse">
+        <polygon points="30,2 50,15 50,37 30,50 10,37 10,15" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+      </pattern>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+        <feMerge> 
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <rect width="1200" height="1600" fill="url(#autosuficienciaGrad)"/>
+    <rect width="1200" height="1600" fill="url(#honeycombPattern)"/>
+    
+    <!-- Elementos decorativos -->
+    <circle cx="100" cy="200" r="80" fill="rgba(255,255,255,0.1)" filter="url(#glow)"/>
+    <circle cx="1100" cy="1400" r="120" fill="rgba(255,255,255,0.05)" filter="url(#glow)"/>
+    <circle cx="600" cy="800" r="200" fill="rgba(255,255,255,0.03)" filter="url(#glow)"/>
+    
+    <!-- Líneas decorativas -->
+    <path d="M0,400 Q600,300 1200,400" stroke="rgba(255,255,255,0.1)" stroke-width="2" fill="none"/>
+    <path d="M0,1200 Q600,1100 1200,1200" stroke="rgba(255,255,255,0.1)" stroke-width="2" fill="none"/>
+  </svg>

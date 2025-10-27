@@ -248,3 +248,14 @@ const result = await contentTemplateEngine.generateContent(request)
 **Versión**: 1.0.0  
 **Última actualización**: 2025-01-27
 
+
+
+
+
+
+
+
+
+
+
+

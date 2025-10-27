@@ -1,0 +1,36 @@
+{
+  "nombre": "Tecnología para el Bien: Herramientas Digitales con Propósito",
+  "nivel": 0,
+  "objetivos": [
+    "Utilizar la tecnología para fines constructivos y de crecimiento",
+    "Crear contenido digital que eduque, inspire y una",
+    "Desarrollar presencia online positiva y con valores",
+    "Usar redes sociales y herramientas digitales para construir comunidad"
+  ],
+  "resumen": "Curso sobre uso consciente de la tecnología para generar impacto positivo, educar, inspirar y construir comunidad con valores éticos.",
+  "público_objetivo": "Usuarios de tecnología, creadores de contenido y educadores",
+  "razón_para_tomarlo": "Aprendé a usar la tecnología de forma consciente y positiva, creando contenido que sume valor y usando herramientas digitales para el bien común.",
+  "contenido": [
+    {
+      "módulo": "Tecnología con Propósito",
+      "actividades": ["Uso consciente de dispositivos digitales", "Selección de herramientas alineadas con valores", "Balance digital-vida real"]
+    },
+    {
+      "módulo": "Contenido que Transforma",
+      "actividades": ["Creación de contenido educativo", "Comunicación positiva en redes", "Narrativas que inspiren cambio"]
+    },
+    {
+      "módulo": "Comunidades Digitales Positivas",
+      "actividades": ["Construcción de comunidades online sanas", "Moderación con valores", "Espacios digitales seguros"]
+    },
+    {
+      "módulo": "Impacto Real",
+      "actividades": ["Proyectos digitales con propósito", "Medición de impacto positivo", "Escalabilidad del bien digital"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Tecnología que suma valor'",
+  "requisitos_profesor": "Experto en tecnología digital con enfoque en impacto social y uso consciente",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 1
+}

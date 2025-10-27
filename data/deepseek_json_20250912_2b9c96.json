@@ -1,0 +1,36 @@
+{
+  "nombre": "Cocina Chapina Inteligente: Sabor, Nutrición y Economía",
+  "nivel": 0,
+  "objetivos": [
+    "Dominar 50+ recetas guatemaltecas nutritivas con costo Q8-15 por porción",
+    "Reducir 40% tiempo de preparación",
+    "Aprovechar 100% ingredientes para minimizar desperdicio",
+    "Desarrollar menús semanales balanceados por Q300-400"
+  ],
+  "resumen": "Curso práctico de cocina tradicional guatemalteca optimizada para maximizar nutrición, sabor y economía familiar.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a preparar 50+ recetas chapinas nutritivas por menos de Q15 por porción, reduciendo tu tiempo en cocina y desperdicio de alimentos.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de Cocina Económica",
+      "actividades": ["Técnicas básicas de cocina eficiente", "Manejo inteligente de ingredientes", "Organización de cocina y utensilios"]
+    },
+    {
+      "módulo": "Recetas Tradicionales Optimizadas",
+      "actividades": ["Preparación de platillos típicos nutritivos", "Adaptación de recetas para maximizar nutrición", "Taller de cocina de batch cooking"]
+    },
+    {
+      "módulo": "Planificación y Presupuesto",
+      "actividades": ["Diseño de menús semanales balanceados", "Elaboración de listas de compras inteligentes", "Presupuestación con Q300-400 semanales"]
+    },
+    {
+      "módulo": "Cocina Emprendedora",
+      "actividades": ["Desarrollo de productos para venta", "Costeo and pricing de platillos", "Estrategias de comercialización local"]
+    }
+  ],
+  "duración": "5 semanas (10 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: '3 recetas chapinas por Q30'",
+  "requisitos_profesor": "Chef o nutricionista con experiencia en cocina guatemalteca y economía doméstica",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 2
+}

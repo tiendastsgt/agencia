@@ -1,0 +1,939 @@
+{
+  "infographic_examples": {
+    "description": "Ejemplos de JSON para generar infografías con MarketPro GT",
+    "version": "1.0.0",
+    "created_at": "2025-09-15T00:00:00Z",
+    "examples": [
+      {
+        "id": "marketing_analytics_example",
+        "name": "Marketing Analytics Dashboard",
+        "description": "Ejemplo de infografía para mostrar métricas de marketing",
+        "category": "marketing",
+        "data": {
+          "title": "Marketing Analytics Q3 2025",
+          "subtitle": "Análisis de rendimiento y métricas clave",
+          "description": "Dashboard completo de métricas de marketing para el tercer trimestre de 2025",
+          "theme": {
+            "name": "Marketing Blue",
+            "primaryColor": "#3B82F6",
+            "secondaryColor": "#1E40AF",
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#1F2937",
+            "accentColor": "#F59E0B",
+            "fontFamily": "Inter",
+            "style": "modern"
+          },
+          "layout": {
+            "type": "grid",
+            "columns": 2,
+            "sections": 6,
+            "spacing": "normal"
+          },
+          "sections": [
+            {
+              "id": "header",
+              "type": "header",
+              "title": "Marketing Analytics Q3 2025",
+              "content": {
+                "text": {
+                  "content": "Análisis completo de rendimiento de marketing digital",
+                  "format": "paragraph"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 15
+              }
+            },
+            {
+              "id": "kpis",
+              "type": "stats",
+              "title": "KPIs Principales",
+              "content": {
+                "stats": {
+                  "items": [
+                    {
+                      "label": "Conversiones",
+                      "value": "15.2",
+                      "unit": "%",
+                      "change": {
+                        "value": 22,
+                        "type": "increase"
+                      },
+                      "icon": "📈",
+                      "color": "#10B981"
+                    },
+                    {
+                      "label": "CTR Promedio",
+                      "value": "3.8",
+                      "unit": "%",
+                      "change": {
+                        "value": 8,
+                        "type": "increase"
+                      },
+                      "icon": "👆",
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "label": "ROAS",
+                      "value": "4.2",
+                      "unit": "x",
+                      "change": {
+                        "value": 15,
+                        "type": "increase"
+                      },
+                      "icon": "💰",
+                      "color": "#F59E0B"
+                    },
+                    {
+                      "label": "Costo por Lead",
+                      "value": "$25",
+                      "unit": "",
+                      "change": {
+                        "value": 12,
+                        "type": "decrease"
+                      },
+                      "icon": "🎯",
+                      "color": "#EF4444"
+                    }
+                  ],
+                  "layout": "grid"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 15,
+                "width": 100,
+                "height": 25
+              }
+            },
+            {
+              "id": "conversion_chart",
+              "type": "chart",
+              "title": "Tendencia de Conversiones",
+              "content": {
+                "chart": {
+                  "type": "line",
+                  "data": [
+                    {
+                      "label": "Enero",
+                      "value": 12.5,
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "label": "Febrero",
+                      "value": 13.8,
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "label": "Marzo",
+                      "value": 14.2,
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "label": "Abril",
+                      "value": 13.9,
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "label": "Mayo",
+                      "value": 15.2,
+                      "color": "#10B981"
+                    }
+                  ],
+                  "title": "Evolución mensual de conversiones",
+                  "showLegend": true,
+                  "showValues": true
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 40,
+                "width": 50,
+                "height": 30
+              }
+            },
+            {
+              "id": "platform_performance",
+              "type": "comparison",
+              "title": "Rendimiento por Plataforma",
+              "content": {
+                "comparison": {
+                  "items": [
+                    {
+                      "title": "Google Ads",
+                      "description": "Líder en conversiones y ROI",
+                      "pros": [
+                        "Mayor volumen de conversiones",
+                        "ROI de 4.8x",
+                        "Audiencia de alta intención"
+                      ],
+                      "cons": [
+                        "Costo por clic alto",
+                        "Competencia intensa"
+                      ],
+                      "score": 92,
+                      "color": "#4285F4"
+                    },
+                    {
+                      "title": "Facebook Ads",
+                      "description": "Excelente para awareness y remarketing",
+                      "pros": [
+                        "Alto engagement",
+                        "Audiencia diversa",
+                        "Herramientas de targeting avanzadas"
+                      ],
+                      "cons": [
+                        "Conversiones menores",
+                        "Cambios frecuentes en algoritmo"
+                      ],
+                      "score": 78,
+                      "color": "#1877F2"
+                    },
+                    {
+                      "title": "LinkedIn Ads",
+                      "description": "Ideal para B2B y profesionales",
+                      "pros": [
+                        "Audiencia profesional",
+                        "Alto valor por lead",
+                        "Menor competencia"
+                      ],
+                      "cons": [
+                        "Volumen limitado",
+                        "Costo por clic muy alto"
+                      ],
+                      "score": 85,
+                      "color": "#0077B5"
+                    }
+                  ],
+                  "layout": "side-by-side"
+                }
+              },
+              "position": {
+                "x": 50,
+                "y": 40,
+                "width": 50,
+                "height": 30
+              }
+            },
+            {
+              "id": "insights",
+              "type": "list",
+              "title": "Insights Clave",
+              "content": {
+                "list": {
+                  "items": [
+                    {
+                      "text": "Aumento del 22% en conversiones vs Q2",
+                      "icon": "📈",
+                      "color": "#10B981",
+                      "highlight": true
+                    },
+                    {
+                      "text": "Google Ads representa 65% del volumen total",
+                      "icon": "🎯",
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "text": "Mejor rendimiento en dispositivos móviles",
+                      "icon": "📱",
+                      "color": "#8B5CF6"
+                    },
+                    {
+                      "text": "Optimización de landing pages exitosa",
+                      "icon": "🚀",
+                      "color": "#F59E0B"
+                    }
+                  ],
+                  "type": "checkmark"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 70,
+                "width": 100,
+                "height": 20
+              }
+            },
+            {
+              "id": "recommendations",
+              "type": "list",
+              "title": "Recomendaciones Q4",
+              "content": {
+                "list": {
+                  "items": [
+                    {
+                      "text": "Aumentar presupuesto en Google Ads 20%",
+                      "icon": "💰",
+                      "color": "#10B981"
+                    },
+                    {
+                      "text": "Implementar campañas de remarketing",
+                      "icon": "🔄",
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "text": "Optimizar para dispositivos móviles",
+                      "icon": "📱",
+                      "color": "#8B5CF6"
+                    },
+                    {
+                      "text": "Expandir a TikTok y LinkedIn",
+                      "icon": "🎯",
+                      "color": "#F59E0B"
+                    }
+                  ],
+                  "type": "bullet"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 90,
+                "width": 100,
+                "height": 10
+              }
+            }
+          ],
+          "metadata": {
+            "author": "MarketPro GT",
+            "createdAt": "2025-09-15T00:00:00Z",
+            "updatedAt": "2025-09-15T00:00:00Z",
+            "tags": ["marketing", "analytics", "q3", "performance", "dashboard"],
+            "category": "marketing",
+            "language": "es",
+            "version": "1.0.0",
+            "clientId": "client_123",
+            "campaignId": "campaign_456"
+          },
+          "style": {
+            "borderRadius": 12,
+            "shadow": true,
+            "border": false,
+            "backgroundPattern": "dots",
+            "watermark": {
+              "text": "MarketPro GT",
+              "opacity": 0.1,
+              "position": "bottom-right"
+            }
+          }
+        }
+      },
+      {
+        "id": "social_media_performance_example",
+        "name": "Social Media Performance Report",
+        "description": "Ejemplo de infografía para mostrar rendimiento en redes sociales",
+        "category": "social-media",
+        "data": {
+          "title": "Social Media Performance",
+          "subtitle": "Análisis de rendimiento en redes sociales - Q3 2025",
+          "description": "Reporte completo de rendimiento en redes sociales con métricas de engagement y alcance",
+          "theme": {
+            "name": "Social Purple",
+            "primaryColor": "#8B5CF6",
+            "secondaryColor": "#7C3AED",
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#1F2937",
+            "accentColor": "#EC4899",
+            "fontFamily": "Inter",
+            "style": "modern"
+          },
+          "layout": {
+            "type": "vertical",
+            "columns": 1,
+            "sections": 5,
+            "spacing": "normal"
+          },
+          "sections": [
+            {
+              "id": "header",
+              "type": "header",
+              "title": "Social Media Performance Q3 2025",
+              "content": {
+                "text": {
+                  "content": "Análisis completo de rendimiento en redes sociales",
+                  "format": "paragraph"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 15
+              }
+            },
+            {
+              "id": "overview_stats",
+              "type": "stats",
+              "title": "Métricas Generales",
+              "content": {
+                "stats": {
+                  "items": [
+                    {
+                      "label": "Alcance Total",
+                      "value": "125K",
+                      "unit": "",
+                      "change": {
+                        "value": 18,
+                        "type": "increase"
+                      },
+                      "icon": "👥",
+                      "color": "#8B5CF6"
+                    },
+                    {
+                      "label": "Engagement Rate",
+                      "value": "4.2",
+                      "unit": "%",
+                      "change": {
+                        "value": 12,
+                        "type": "increase"
+                      },
+                      "icon": "❤️",
+                      "color": "#EC4899"
+                    },
+                    {
+                      "label": "Crecimiento",
+                      "value": "+18",
+                      "unit": "%",
+                      "change": {
+                        "value": 18,
+                        "type": "increase"
+                      },
+                      "icon": "📈",
+                      "color": "#10B981"
+                    },
+                    {
+                      "label": "Seguidores",
+                      "value": "45K",
+                      "unit": "",
+                      "change": {
+                        "value": 8,
+                        "type": "increase"
+                      },
+                      "icon": "👤",
+                      "color": "#3B82F6"
+                    }
+                  ],
+                  "layout": "horizontal"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 15,
+                "width": 100,
+                "height": 20
+              }
+            },
+            {
+              "id": "platform_comparison",
+              "type": "comparison",
+              "title": "Rendimiento por Plataforma",
+              "content": {
+                "comparison": {
+                  "items": [
+                    {
+                      "title": "Instagram",
+                      "description": "Mejor rendimiento en engagement y crecimiento",
+                      "pros": [
+                        "Alto engagement (5.8%)",
+                        "Crecimiento 25%",
+                        "Audiencia joven activa",
+                        "Stories muy efectivas"
+                      ],
+                      "cons": [
+                        "Alto costo de ads",
+                        "Competencia intensa",
+                        "Algoritmo cambiante"
+                      ],
+                      "score": 88,
+                      "color": "#E4405F"
+                    },
+                    {
+                      "title": "Facebook",
+                      "description": "Líder en alcance y conversiones",
+                      "pros": [
+                        "Mayor alcance (65K)",
+                        "Buen ROI en ads",
+                        "Audiencia diversa",
+                        "Herramientas avanzadas"
+                      ],
+                      "cons": [
+                        "Engagement menor (3.2%)",
+                        "Algoritmo complejo",
+                        "Audiencia envejeciendo"
+                      ],
+                      "score": 75,
+                      "color": "#1877F2"
+                    },
+                    {
+                      "title": "LinkedIn",
+                      "description": "Excelente para B2B y networking",
+                      "pros": [
+                        "Audiencia profesional",
+                        "Alto valor por lead",
+                        "Menor competencia",
+                        "Contenido de calidad"
+                      ],
+                      "cons": [
+                        "Volumen limitado",
+                        "Engagement bajo",
+                        "Costo alto"
+                      ],
+                      "score": 82,
+                      "color": "#0077B5"
+                    }
+                  ],
+                  "layout": "side-by-side"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 35,
+                "width": 100,
+                "height": 35
+              }
+            },
+            {
+              "id": "content_performance",
+              "type": "chart",
+              "title": "Rendimiento por Tipo de Contenido",
+              "content": {
+                "chart": {
+                  "type": "doughnut",
+                  "data": [
+                    {
+                      "label": "Imágenes",
+                      "value": 45,
+                      "color": "#8B5CF6",
+                      "percentage": 45
+                    },
+                    {
+                      "label": "Videos",
+                      "value": 30,
+                      "color": "#EC4899",
+                      "percentage": 30
+                    },
+                    {
+                      "label": "Stories",
+                      "value": 15,
+                      "color": "#10B981",
+                      "percentage": 15
+                    },
+                    {
+                      "label": "Carousels",
+                      "value": 10,
+                      "color": "#F59E0B",
+                      "percentage": 10
+                    }
+                  ],
+                  "title": "Distribución de engagement por tipo de contenido",
+                  "showLegend": true,
+                  "showValues": true
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 70,
+                "width": 100,
+                "height": 20
+              }
+            },
+            {
+              "id": "insights_recommendations",
+              "type": "list",
+              "title": "Insights y Recomendaciones",
+              "content": {
+                "list": {
+                  "items": [
+                    {
+                      "text": "Instagram Stories generan 40% más engagement que posts",
+                      "icon": "📸",
+                      "color": "#E4405F",
+                      "highlight": true
+                    },
+                    {
+                      "text": "Mejor horario de publicación: 6-8 PM",
+                      "icon": "⏰",
+                      "color": "#8B5CF6"
+                    },
+                    {
+                      "text": "Contenido visual supera texto 3:1 en engagement",
+                      "icon": "🎨",
+                      "color": "#EC4899"
+                    },
+                    {
+                      "text": "Hashtags relevantes aumentan alcance 25%",
+                      "icon": "#️⃣",
+                      "color": "#10B981"
+                    },
+                    {
+                      "text": "Videos cortos (<30s) tienen mejor retención",
+                      "icon": "🎬",
+                      "color": "#F59E0B"
+                    }
+                  ],
+                  "type": "bullet"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 90,
+                "width": 100,
+                "height": 10
+              }
+            }
+          ],
+          "metadata": {
+            "author": "MarketPro GT",
+            "createdAt": "2025-09-15T00:00:00Z",
+            "updatedAt": "2025-09-15T00:00:00Z",
+            "tags": ["social-media", "performance", "engagement", "analytics", "q3"],
+            "category": "social-media",
+            "language": "es",
+            "version": "1.0.0",
+            "clientId": "client_789",
+            "campaignId": "campaign_social_123"
+          },
+          "style": {
+            "borderRadius": 16,
+            "shadow": true,
+            "border": false,
+            "backgroundPattern": "waves",
+            "watermark": {
+              "text": "Social Media Analytics",
+              "opacity": 0.05,
+              "position": "center"
+            }
+          }
+        }
+      },
+      {
+        "id": "business_report_example",
+        "name": "Business Performance Report",
+        "description": "Ejemplo de infografía para reportes empresariales",
+        "category": "business",
+        "data": {
+          "title": "Business Performance Report",
+          "subtitle": "Q3 2025 - Análisis de rendimiento empresarial",
+          "description": "Reporte trimestral de rendimiento empresarial con KPIs y métricas clave",
+          "theme": {
+            "name": "Corporate Green",
+            "primaryColor": "#059669",
+            "secondaryColor": "#047857",
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#1F2937",
+            "accentColor": "#F59E0B",
+            "fontFamily": "Inter",
+            "style": "corporate"
+          },
+          "layout": {
+            "type": "grid",
+            "columns": 2,
+            "sections": 6,
+            "spacing": "normal"
+          },
+          "sections": [
+            {
+              "id": "header",
+              "type": "header",
+              "title": "Business Performance Report Q3 2025",
+              "content": {
+                "text": {
+                  "content": "Análisis trimestral de rendimiento empresarial y objetivos",
+                  "format": "paragraph"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 15
+              }
+            },
+            {
+              "id": "financial_kpis",
+              "type": "stats",
+              "title": "KPIs Financieros",
+              "content": {
+                "stats": {
+                  "items": [
+                    {
+                      "label": "Revenue",
+                      "value": "$2.5M",
+                      "unit": "",
+                      "change": {
+                        "value": 12,
+                        "type": "increase"
+                      },
+                      "icon": "💰",
+                      "color": "#059669"
+                    },
+                    {
+                      "label": "Growth Rate",
+                      "value": "+12",
+                      "unit": "%",
+                      "change": {
+                        "value": 12,
+                        "type": "increase"
+                      },
+                      "icon": "📈",
+                      "color": "#10B981"
+                    },
+                    {
+                      "label": "Profit Margin",
+                      "value": "18.5",
+                      "unit": "%",
+                      "change": {
+                        "value": 2.3,
+                        "type": "increase"
+                      },
+                      "icon": "📊",
+                      "color": "#059669"
+                    },
+                    {
+                      "label": "Customer Satisfaction",
+                      "value": "4.8",
+                      "unit": "/5",
+                      "change": {
+                        "value": 0.2,
+                        "type": "increase"
+                      },
+                      "icon": "⭐",
+                      "color": "#F59E0B"
+                    }
+                  ],
+                  "layout": "grid"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 15,
+                "width": 100,
+                "height": 25
+              }
+            },
+            {
+              "id": "revenue_trend",
+              "type": "chart",
+              "title": "Tendencia de Revenue",
+              "content": {
+                "chart": {
+                  "type": "bar",
+                  "data": [
+                    {
+                      "label": "Q1 2025",
+                      "value": 2.1,
+                      "color": "#059669"
+                    },
+                    {
+                      "label": "Q2 2025",
+                      "value": 2.3,
+                      "color": "#059669"
+                    },
+                    {
+                      "label": "Q3 2025",
+                      "value": 2.5,
+                      "color": "#10B981"
+                    }
+                  ],
+                  "title": "Evolución trimestral de revenue (en millones USD)",
+                  "showLegend": false,
+                  "showValues": true
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 40,
+                "width": 50,
+                "height": 30
+              }
+            },
+            {
+              "id": "achievements",
+              "type": "list",
+              "title": "Logros del Trimestre",
+              "content": {
+                "list": {
+                  "items": [
+                    {
+                      "text": "Nuevo producto lanzado exitosamente",
+                      "icon": "🚀",
+                      "color": "#059669",
+                      "highlight": true
+                    },
+                    {
+                      "text": "Expansión a 3 nuevos mercados",
+                      "icon": "🌍",
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "text": "Equipo creció 25% (15 nuevos empleados)",
+                      "icon": "👥",
+                      "color": "#8B5CF6"
+                    },
+                    {
+                      "text": "Certificación ISO 9001 obtenida",
+                      "icon": "🏆",
+                      "color": "#F59E0B"
+                    }
+                  ],
+                  "type": "checkmark"
+                }
+              },
+              "position": {
+                "x": 50,
+                "y": 40,
+                "width": 50,
+                "height": 30
+              }
+            },
+            {
+              "id": "market_analysis",
+              "type": "comparison",
+              "title": "Análisis de Mercado",
+              "content": {
+                "comparison": {
+                  "items": [
+                    {
+                      "title": "Mercado Principal",
+                      "description": "Mercado establecido con crecimiento sostenido",
+                      "pros": [
+                        "Base de clientes sólida",
+                        "Brand recognition alta",
+                        "Revenue predecible"
+                      ],
+                      "cons": [
+                        "Competencia intensa",
+                        "Margen de crecimiento limitado"
+                      ],
+                      "score": 85,
+                      "color": "#059669"
+                    },
+                    {
+                      "title": "Mercados Emergentes",
+                      "description": "Nuevas oportunidades de crecimiento",
+                      "pros": [
+                        "Alto potencial de crecimiento",
+                        "Menor competencia",
+                        "Margen de ganancia alto"
+                      ],
+                      "cons": [
+                        "Riesgo alto",
+                        "Inversión inicial grande",
+                        "Regulaciones complejas"
+                      ],
+                      "score": 72,
+                      "color": "#F59E0B"
+                    }
+                  ],
+                  "layout": "side-by-side"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 70,
+                "width": 100,
+                "height": 20
+              }
+            },
+            {
+              "id": "q4_goals",
+              "type": "list",
+              "title": "Objetivos Q4 2025",
+              "content": {
+                "list": {
+                  "items": [
+                    {
+                      "text": "Aumentar revenue 15% ($2.9M)",
+                      "icon": "🎯",
+                      "color": "#059669"
+                    },
+                    {
+                      "text": "Mejorar customer satisfaction a 4.9/5",
+                      "icon": "⭐",
+                      "color": "#F59E0B"
+                    },
+                    {
+                      "text": "Lanzar 2 nuevos productos",
+                      "icon": "🚀",
+                      "color": "#3B82F6"
+                    },
+                    {
+                      "text": "Optimizar procesos operativos",
+                      "icon": "⚙️",
+                      "color": "#8B5CF6"
+                    }
+                  ],
+                  "type": "bullet"
+                }
+              },
+              "position": {
+                "x": 0,
+                "y": 90,
+                "width": 100,
+                "height": 10
+              }
+            }
+          ],
+          "metadata": {
+            "author": "MarketPro GT",
+            "createdAt": "2025-09-15T00:00:00Z",
+            "updatedAt": "2025-09-15T00:00:00Z",
+            "tags": ["business", "report", "performance", "kpis", "quarterly", "financial"],
+            "category": "business",
+            "language": "es",
+            "version": "1.0.0",
+            "clientId": "client_business_456",
+            "campaignId": "campaign_q3_report"
+          },
+          "style": {
+            "borderRadius": 8,
+            "shadow": true,
+            "border": true,
+            "borderColor": "#E5E7EB",
+            "backgroundPattern": "none",
+            "watermark": {
+              "text": "Business Intelligence",
+              "opacity": 0.08,
+              "position": "top-right"
+            }
+          }
+        }
+      }
+    ],
+    "usage_instructions": {
+      "description": "Instrucciones para usar estos ejemplos",
+      "steps": [
+        "1. Copia el JSON del ejemplo que desees usar",
+        "2. Modifica los datos según tus necesidades específicas",
+        "3. Usa el InfographicManager para cargar el JSON",
+        "4. Personaliza colores, textos y métricas",
+        "5. Genera la infografía con el proveedor de IA deseado"
+      ],
+      "customization_tips": [
+        "Cambia los colores en la sección 'theme' para que coincidan con tu marca",
+        "Modifica las métricas en 'stats' con tus datos reales",
+        "Ajusta el layout según el tipo de contenido que tengas",
+        "Personaliza los textos y descripciones",
+        "Agrega o quita secciones según tus necesidades"
+      ]
+    },
+    "prompt_generation": {
+      "description": "Cómo se generan los prompts para las APIs de IA",
+      "process": [
+        "1. El sistema analiza la estructura JSON",
+        "2. Extrae elementos visuales (gráficos, estadísticas, listas)",
+        "3. Identifica colores y estilos del tema",
+        "4. Describe el layout y organización",
+        "5. Genera un prompt optimizado para la API de generación de imágenes",
+        "6. Incluye especificaciones técnicas y de calidad"
+      ],
+      "example_prompt": "Create a professional modern infographic titled 'Marketing Analytics Q3 2025' with subtitle 'Análisis de rendimiento y métricas clave'. The infographic should have a grid layout with 6 main sections. Section 1: header section with title and description. Section 2: statistics section with 4 key metrics showing conversions, CTR, ROAS, and cost per lead. Section 3: line chart showing conversion trends over 5 months. Section 4: comparison section with 3 platforms (Google Ads, Facebook Ads, LinkedIn Ads). Section 5: list section with 4 key insights. Section 6: list section with 4 recommendations. Use a modern design style with primary color #3B82F6 and secondary color #1E40AF. The background should be #FFFFFF with #1F2937 text. Include professional typography using Inter font family. Make it visually appealing, modern, and suitable for social media sharing. Ensure all text is readable and the layout is clean and organized. High quality, professional design, suitable for print and digital use. Clean typography, proper spacing, and visual hierarchy. No watermarks, no text overlays that might be unreadable. Modern, engaging, and shareable design."
+    }
+  }
+}
+
+
+
+

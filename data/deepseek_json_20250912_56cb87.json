@@ -1,0 +1,36 @@
+{
+  "nombre": "Matemática Práctica: Resuelve Problemas Reales del Día a Día",
+  "nivel": 0,
+  "objetivos": [
+    "Aplicar matemáticas básicas para resolver problemas cotidianos",
+    "Desarrollar confianza en habilidades numéricas básicas",
+    "Mejorar capacidad de análisis financiero personal",
+    "Preparar para estudios técnicos o universitarios posteriores"
+  ],
+  "resumen": "Curso práctico que aplica conceptos matemáticos a situaciones reales del día a día, desde presupuestos hasta mediciones y cálculos cotidianos.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé matemáticas prácticas que te ayudarán a resolver problemas reales, manejar mejor tu dinero y tomar decisiones informadas en la vida diaria.",
+  "contenido": [
+    {
+      "módulo": "Matemáticas del Hogar",
+      "actividades": ["Cálculo de presupuestos familiares", "Mediciones y conversiones prácticas", "Optimización de espacios y recursos"]
+    },
+    {
+      "módulo": "Matemáticas Comerciales",
+      "actividades": ["Cálculo de descuentos y porcentajes", "Análisis de precios y comparaciones", "Gestión de pequeños negocios"]
+    },
+    {
+      "módulo": "Matemáticas Financieras",
+      "actividades": ["Interés simple y compuesto", "Planificación de ahorros", "Análisis de opciones de crédito"]
+    },
+    {
+      "módulo": "Resolución de Problemas",
+      "actividades": ["Pensamiento lógico-matemático", "Estrategias de solución paso a paso", "Aplicación en situaciones reales"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 2 horas: 'Matemáticas para la vida real'",
+  "requisitos_profesor": "Profesor de matemáticas con experiencia en aplicaciones prácticas y educación de adultos",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 1
+}

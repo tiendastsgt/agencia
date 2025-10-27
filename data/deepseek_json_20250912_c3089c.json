@@ -1,0 +1,36 @@
+{
+  "nombre": "Vida en Comunidad: Construye Relaciones Auténticas",
+  "nivel": 0,
+  "objetivos": [
+    "Fortalecer relaciones interpersonales auténticas y significativas",
+    "Aplicar principios cristianos en la convivencia comunitaria",
+    "Desarrollar empatía y comprensión hacia los demás",
+    "Contribuir activamente al bien común comunitario"
+  ],
+  "resumen": "Curso basado en valores cristianos para construir relaciones auténticas y practicar la caridad en lo cotidiano, creando comunidades solidarias.",
+  "público_objetivo": "Miembros de comunidades parroquiales y familias",
+  "razón_para_tomarlo": "Aprendé a construir relaciones auténticas y contribuir a comunidades donde se viva la caridad, el respeto y el apoyo mutuo según valores cristianos.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de Comunidad",
+      "actividades": ["Principios cristianos de comunidad", "Importancia de las relaciones auténticas", "Análisis de necesidades comunitarias"]
+    },
+    {
+      "módulo": "Comunicación Comunitaria",
+      "actividades": ["Escucha activa en comunidad", "Comunicación asertiva y respetuosa", "Manejo de diferencias y conflictos"]
+    },
+    {
+      "módulo": "Servicio y Solidaridad",
+      "actividades": ["Identificación de oportunidades de servicio", "Organización de ayuda mutua", "Proyectos comunitarios concretos"]
+    },
+    {
+      "módulo": "Sostenibilidad Comunitaria",
+      "actividades": ["Creación de redes de apoyo", "Mantenimiento de relaciones a largo plazo", "Celebración y rituales comunitarios"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Construyendo comunidad desde lo pequeño'",
+  "requisitos_profesor": "Líder comunitario o religioso con experiencia en desarrollo comunitario y valores cristianos",
+  "ruta": "🕊️ RUTA 6: VIDA ESPIRITUAL INTEGRADA",
+  "créditos": 2
+}

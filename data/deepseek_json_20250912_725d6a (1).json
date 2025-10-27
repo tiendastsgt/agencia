@@ -1,0 +1,36 @@
+{
+  "nombre": "Energía Natural: Sincroniza tu Cuerpo para Mayor Productividad",
+  "nivel": 0,
+  "objetivos": [
+    "Comprender los ritmos naturales de energía del cuerpo",
+    "Organizar actividades según picos de productividad natural",
+    "Mejorar la calidad del sueño y descanso",
+    "Crear rutinas saludables que maximicen el rendimiento"
+  ],
+  "resumen": "Enseña a trabajar con los ritmos naturales del cuerpo para maximizar la energía y productividad en el día a día, mejorando el bienestar general.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a sincronizar tus actividades con tus ritmos naturales de energía y aumentá tu productividad hasta 40% mientras mejorás tu calidad de vida.",
+  "contenido": [
+    {
+      "módulo": "Ritmos Circadianos",
+      "actividades": ["Identificación de cronotipo personal", "Análisis de patrones de energía", "Taller de sincronización biológica"]
+    },
+    {
+      "módulo": "Optimización Diaria",
+      "actividades": ["Planificación según niveles de energía", "Organización de tareas por prioridad natural", "Manejo de picos y valles energéticos"]
+    },
+    {
+      "módulo": "Sueño and Descanso",
+      "actividades": ["Técnicas para mejorar calidad de sueño", "Rutinas pre-sueño efectivas", "Optimización de espacios de descanso"]
+    },
+    {
+      "módulo": "Rutinas Saludables",
+      "actividades": ["Diseño de rutinas matutinas y vespertinas", "Integración de hábitos energizantes", "Mantenimiento de ritmos consistentes"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 1.5 horas)",
+  "modalidad_piloto": "Taller de 2 horas: 'Encuentra tu horario de máxima productividad'",
+  "requisitos_profesor": "Especialista en cronobiología o coach de productividad con conocimientos científicos",
+  "ruta": "✨ RUTA 5: CRECIMIENTO PERSONAL",
+  "créditos": 1
+}

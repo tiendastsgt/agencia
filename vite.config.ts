@@ -18,5 +18,12 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // Removed React DevTools shim to avoid Fast Refresh conflicts
+  esbuild: {
+    // Suprimir advertencias específicas
+    logOverride: {
+      'this-is-undefined-in-esm': 'silent'
+    }
+  }
 })
 

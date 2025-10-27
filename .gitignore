@@ -100,4 +100,4 @@ coverage/
 .storybook-out
 
 # Local Netlify folder
-.netlify
+.netlifyconfig/api-keys.local.ts

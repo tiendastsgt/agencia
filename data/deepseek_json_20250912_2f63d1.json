@@ -1,0 +1,36 @@
+{
+  "nombre": "Mi Huerto en Casa: Alimentos Frescos Todo el Año",
+  "nivel": 0,
+  "objetivos": [
+    "Establecer huerto familiar productivo que genere Q200-400 mensuales en alimentos",
+    "Lograr autosuficiencia en vegetales básicos",
+    "Reducir 30% gastos en verduras frescas",
+    "Crear sistema sostenible de producción familiar"
+  ],
+  "resumen": "Curso práctico para establecer huertos familiares productivos que provean alimentos frescos y generen ahorros significativos en el presupuesto familiar.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a crear un huerto familiar que te provea Q200-400 mensuales en alimentos frescos y reduzca tus gastos en verduras en 30%.",
+  "contenido": [
+    {
+      "módulo": "Diagnóstico y Diseño del Espacio",
+      "actividades": ["Evaluación de espacios disponibles", "Diseño de huerto adaptado a tu hogar", "Selección de cultivos por temporada y espacio"]
+    },
+    {
+      "módulo": "Preparación e Instalación",
+      "actividades": ["Preparación de suelos y sustratos", "Instalación de sistemas de riego eficientes", "Construcción de camas de cultivo y contenedores"]
+    },
+    {
+      "módulo": "Siembra y Manejo",
+      "actividades": ["Técnicas de siembra y trasplante", "Manejo orgánico de plagas y enfermedades", "Programación de mantenimiento y cuidados"]
+    },
+    {
+      "módulo": "Cosecha y Expansión",
+      "actividades": ["Técnicas de cosecha y postcosecha", "Planificación de cultivos sucesivos", "Estrategias de escalamiento del huerto"]
+    }
+  ],
+  "duración": "6 semanas (12 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Tu primer huerto en macetas'",
+  "requisitos_profesor": "Ingeniero agrónomo o horticultor con experiencia en agricultura urbana y huertos familiares en Guatemala",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 3
+}

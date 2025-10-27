@@ -1,0 +1,36 @@
+{
+  "nombre": "Economía de Comunión: Trabajo como Vocación",
+  "nivel": 0,
+  "objetivos": [
+    "Comprender el trabajo como vocación y servicio a los demás",
+    "Aplicar principios éticos cristianos en la vida laboral",
+    "Desarrollar mentalidad de abundancia y generosidad",
+    "Contribuir al bien común through el trabajo y los negocios"
+  ],
+  "resumen": "Curso basado en principios cristianos para ver el trabajo como vocación de servicio y contribuir a una economía más justa y solidaria.",
+  "público_objetivo": "Trabajadores, emprendedores y profesionales cristianos",
+  "razón_para_tomarlo": "Descubrí el sentido profundo de tu trabajo como vocación y aprendé a contribuir a una economía más humana y solidaria desde tu ámbito laboral.",
+  "contenido": [
+    {
+      "módulo": "Visión Cristiana del Trabajo",
+      "actividades": ["Doctrina social de la Iglesia sobre trabajo", "Trabajo como vocación y servicio", "Santificación del trabajo ordinario"]
+    },
+    {
+      "módulo": "Ética Laboral Práctica",
+      "actividades": ["Principios éticos en decisiones laborales", "Relaciones justas en el trabajo", "Excelencia y calidad como servicio"]
+    },
+    {
+      "módulo": "Economía de Comunión",
+      "actividades": ["Modelos de negocio con distribución solidaria", "Reinversión en comunidad", "Relaciones comerciales justas"]
+    },
+    {
+      "módulo": "Testimonio Laboral",
+      "actividades": ["Evangelización en el ámbito laboral", "Creación de comunidades laborales cristianas", "Balance trabajo-vida familiar"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Encuentra el sentido cristiano de tu trabajo'",
+  "requisitos_profesor": "Experto en doctrina social de la Iglesia con experiencia en economía solidaria",
+  "ruta": "🕊️ RUTA 6: VIDA ESPIRITUAL INTEGRADA",
+  "créditos": 2
+}

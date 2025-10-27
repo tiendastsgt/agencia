@@ -1,0 +1,36 @@
+{
+  "nombre": "Descubre tu Potencial: Identifica y Desarrolla tus Talentos",
+  "nivel": 0,
+  "objetivos": [
+    "Identificar fortalezas y habilidades naturales",
+    "Aprender técnicas de autoevaluación efectivas",
+    "Desarrollar estrategias para potenciar talentos",
+    "Aplicar fortalezas en el ámbito laboral y personal"
+  ],
+  "resumen": "Curso de autodescubrimiento para identificar talentos naturales mediante ejercicios prácticos y reflexión guiada, basado en metodologías comprobadas.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Descubrí tus talentos naturales y aprendé cómo aplicarlos para mejorar tu empleabilidad, desarrollo profesional y satisfacción personal.",
+  "contenido": [
+    {
+      "módulo": "Autoconocimiento",
+      "actividades": ["Ejercicios de identificación de fortalezas", "Análisis de experiencias pasadas", "Taller de valores personales"]
+    },
+    {
+      "módulo": "Evaluación de Talentos",
+      "actividades": ["Aplicación de herramientas de assessment", "Análisis de resultados personales", "Identificación de patrones de éxito"]
+    },
+    {
+      "módulo": "Desarrollo de Potencial",
+      "actividades": ["Diseño de plan de desarrollo personal", "Estrategias de mejora continua", "Taller de establecimiento de metas"]
+    },
+    {
+      "módulo": "Aplicación Práctica",
+      "actividades": ["Integración de talentos en vida cotidiana", "Desarrollo de proyectos personales", "Monetización de habilidades naturales"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 2 horas: 'Descubre tus 3 talentos principales'",
+  "requisitos_profesor": "Coach certificado en desarrollo personal con experiencia en metodologías de identificación de talentos",
+  "ruta": "✨ RUTA 5: CRECIMIENTO PERSONAL",
+  "créditos": 2
+}

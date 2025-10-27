@@ -1,0 +1,36 @@
+{
+  "nombre": "Carpintería Práctica: Muebles y Reparaciones para el Hogar",
+  "nivel": 0,
+  "objetivos": [
+    "Dominar herramientas básicas de carpintería de forma segura",
+    "Crear muebles sencillos y funcionales para el hogar",
+    "Realizar reparaciones básicas en muebles y estructuras",
+    "Desarrollar habilidades manuales y de diseño básico"
+  ],
+  "resumen": "Curso hands-on para aprender carpintería básica, crear muebles útiles y hacer reparaciones en casa, sin experiencia previa requerida.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé carpintería práctica y creá muebles funcionales para tu hogar mientras desarrollás habilidades que te ahorrarán dinero en reparaciones.",
+  "contenido": [
+    {
+      "módulo": "Herramientas y Seguridad",
+      "actividades": ["Manejo seguro de herramientas básicas", "Taller de medición and marcado preciso", "Práctica de técnicas de corte"]
+    },
+    {
+      "módulo": "Construcción Básica",
+      "actividades": ["Ensamblaje de estructuras simples", "Técnicas de unión y fijación", "Taller de acabados básicos"]
+    },
+    {
+      "módulo": "Proyectos Prácticos",
+      "actividades": ["Construcción de muebles sencillos", "Reparación de muebles existentes", "Personalización de proyectos"]
+    },
+    {
+      "módulo": "Mantenimiento",
+      "actividades": ["Técnicas de mantenimiento preventivo", "Reparación de daños comunes", "Preservación y cuidado de muebles"]
+    }
+  ],
+  "duración": "5 semanas (10 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Construye tu primera repisa'",
+  "requisitos_profesor": "Carpintero con al menos 5 años de experiencia y habilidades didácticas para principiantes",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 3
+}

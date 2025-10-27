@@ -1,0 +1,36 @@
+{
+  "nombre": "Liturgia Viva: Enriquece tu Experiencia de Fe",
+  "nivel": 0,
+  "objetivos": [
+    "Comprender y participar activamente en liturgias cristianas",
+    "Desarrollar liderazgo en ministerios litúrgicos parroquiales",
+    "Crear programas litúrgicos para eventos familiares y comunitarios",
+    "Fortalecer identidad cristiana católica"
+  ],
+  "resumen": "Curso sobre liturgia católica viviente que enseña a participar activamente y enriquecer la experiencia de fe through la celebración comunitaria.",
+  "público_objetivo": "Fieles católicos y miembros de comunidades parroquiales",
+  "razón_para_tomarlo": "Aprendé a vivir la liturgia católica de forma plena y consciente, enriqueciendo tu experiencia de fe y participando activamente en la vida parroquial.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de la Liturgia",
+      "actividades": ["Significado y símbolos litúrgicos", "Estructura de la misa católica", "Sentido comunitario de la celebración"]
+    },
+    {
+      "módulo": "Liturgia Dominical y Temporal",
+      "actividades": ["Ciclo litúrgico anual", "Celebración de festividades", "Adaptación a diferentes contextos"]
+    },
+    {
+      "módulo": "Participación Activa",
+      "actividades": ["Ministerios litúrgicos", "Canto y música sacra", "Preparación de celebraciones"]
+    },
+    {
+      "módulo": "Liturgia Familiar",
+      "actividades": ["Celebraciones domésticas", "Transmisión de fe a niños", "Integración fe-vida cotidiana"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Vive la misa con nuevo sentido'",
+  "requisitos_profesor": "Persona con formación litúrgica y experiencia en ministerios parroquiales",
+  "ruta": "🕊️ RUTA 6: VIDA ESPIRITUAL INTEGRADA",
+  "créditos": 1
+}

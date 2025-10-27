@@ -1,0 +1,44 @@
+{
+  "nombre": "Marketing Digital Avanzado: Estrategias para el Éxito Online",
+  "nivel": 2,
+  "objetivos": [
+    "Dominar las herramientas de marketing digital más efectivas",
+    "Crear campañas publicitarias que generen resultados medibles",
+    "Optimizar la presencia online de tu empresa",
+    "Aumentar las ventas y conversiones digitales"
+  ],
+  "resumen": "Curso avanzado de marketing digital que te enseñará las estrategias más efectivas para promocionar tu negocio online, desde redes sociales hasta publicidad pagada.",
+  "público_objetivo": "Empresarios, emprendedores y profesionales del marketing",
+  "razón_para_tomarlo": "Aprende las técnicas más avanzadas de marketing digital para hacer crecer tu negocio y aumentar tus ventas de forma sostenible.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos del Marketing Digital",
+      "actividades": ["Análisis de mercado digital", "Definición de buyer persona", "Estrategia de contenido"]
+    },
+    {
+      "módulo": "Redes Sociales y Community Management",
+      "actividades": ["Gestión de redes sociales", "Creación de contenido viral", "Engagement y fidelización"]
+    },
+    {
+      "módulo": "Publicidad Digital",
+      "actividades": ["Google Ads y Facebook Ads", "Optimización de campañas", "ROI y métricas de rendimiento"]
+    },
+    {
+      "módulo": "SEO y Marketing de Contenidos",
+      "actividades": ["Optimización para motores de búsqueda", "Blogging estratégico", "Email marketing"]
+    },
+    {
+      "módulo": "Analytics y Medición",
+      "actividades": ["Google Analytics", "Herramientas de medición", "Reportes y dashboards"]
+    }
+  ],
+  "duración": "8 semanas (16 sesiones de 3 horas)",
+  "modalidad_piloto": "Workshop de 4 horas: 'Introducción al Marketing Digital'",
+  "requisitos_profesor": "Especialista en marketing digital con más de 5 años de experiencia",
+  "ruta": "💼 RUTA 1: DESARROLLO PROFESIONAL",
+  "créditos": 5
+}
+
+
+
+

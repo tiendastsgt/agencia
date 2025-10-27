@@ -1,0 +1,36 @@
+{
+  "nombre": "Dinero Inteligente: Controla, Ahorra y Multiplica",
+  "nivel": 0,
+  "objetivos": [
+    "Establecer control financiero personal que genere ahorro Q500+ mensuales",
+    "Eliminar deudas de consumo en 6-12 meses",
+    "Crear fondo de emergencia familiar",
+    "Desarrollar plan de inversión con Q200+ mensuales"
+  ],
+  "resumen": "Curso transformador de finanzas personales que enseña a tomar control del dinero, eliminar deudas y construir patrimonio desde cero.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a generar ahorros de Q500+ mensuales, eliminar deudas y comenzar a invertir, incluso con ingresos limitados.",
+  "contenido": [
+    {
+      "módulo": "Diagnóstico Financiero Personal",
+      "actividades": ["Análisis completo de situación financiera", "Identificación de fugas de dinero", "Establecimiento de metas financieras claras"]
+    },
+    {
+      "módulo": "Presupuesto y Control de Gastos",
+      "actividades": ["Elaboración de presupuesto realista", "Sistemas de control de gastos", "Técnicas de reducción de costos fijos"]
+    },
+    {
+      "módulo": "Estrategias de Ahorro y Eliminación de Deudas",
+      "actividades": ["Plan de eliminación acelerada de deudas", "Estrategias de ahorro automático", "Creación de fondo de emergencia"]
+    },
+    {
+      "módulo": "Inversión e Incremento de Ingresos",
+      "actividades": ["Introducción a inversiones básicas", "Estrategias para aumentar ingresos", "Plan de acumulación de patrimonio"]
+    }
+  ],
+  "duración": "5 semanas (10 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'De deudas a ahorros en 90 días'",
+  "requisitos_profesor": "Experto en finanzas personales con experiencia en educación financiera para familias guatemaltecas",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 2
+}

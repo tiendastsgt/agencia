@@ -1,0 +1,36 @@
+{
+  "nombre": "Física del Hogar: Ahorra Dinero con Ciencia Práctica",
+  "nivel": 0,
+  "objetivos": [
+    "Resolver problemas domésticos con principios físicos simples",
+    "Reducir costos de reparaciones en el hogar",
+    "Entender el funcionamiento básico de electrodomésticos",
+    "Aplicar eficiencia energética para ahorrar dinero"
+  ],
+  "resumen": "Curso práctico para usar principios físicos básicos y resolver problemas cotidianos del hogar, optimizando el consumo y ahorrando dinero.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a resolver problemas domésticos comunes y ahorrar hasta 30% en tus facturas aplicando principios físicos simples y eficiencia energética.",
+  "contenido": [
+    {
+      "módulo": "Mecánica Doméstica",
+      "actividades": ["Reparación de herramientas básicas", "Optimización de palancas y poleas", "Solución de problemas mecánicos comunes"]
+    },
+    {
+      "módulo": "Electricidad Básica",
+      "actividades": ["Manejo seguro de instalaciones eléctricas", "Reparación de enchufes y interruptores", "Optimización del consumo eléctrico"]
+    },
+    {
+      "módulo": "Eficiencia Energética",
+      "actividades": ["Reducción de facturas de servicios", "Aprovechamiento de energía natural", "Técnicas de aislamiento térmico"]
+    },
+    {
+      "módulo": "Hidráulica Práctica",
+      "actividades": ["Solución de problemas de plomería", "Sistemas de riego eficientes", "Conservación y reuso de agua"]
+    }
+  ],
+  "duración": "5 semanas (10 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Soluciones prácticas que ahorran dinero'",
+  "requisitos_profesor": "Ingeniero o técnico con experiencia en aplicaciones prácticas de física doméstica",
+  "ruta": "🏡 RUTA 3: AUTOSUFICIENCIA DEL HOGAR",
+  "créditos": 2
+}

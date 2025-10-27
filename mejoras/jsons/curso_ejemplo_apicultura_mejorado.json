@@ -1,0 +1,104 @@
+{
+  "nombre": "Apicultura Urbana: Produce tu Propia Miel de Forma Sostenible",
+  "nivel": 1,
+  "objetivos": [
+    "Iniciarse en la apicultura de forma segura y responsable",
+    "Contribuir a la conservación de polinizadores",
+    "Producir miel para consumo familiar",
+    "Generar posible fuente de ingresos adicional"
+  ],
+  "resumen": "Curso completo de apicultura urbana que enseña desde los fundamentos básicos hasta técnicas avanzadas para producir miel de calidad en entornos urbanos, contribuyendo a la sostenibilidad ambiental.",
+  "público_objetivo": "Jóvenes adultos y padres de familia interesados en la sostenibilidad y producción de alimentos",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de Apicultura",
+      "actividades": [
+        "Conocimiento de biología de las abejas",
+        "Taller de equipos y herramientas",
+        "Identificación de especies de abejas",
+        "Anatomía y comportamiento de la colmena"
+      ],
+      "duración": "3 semanas",
+      "objetivos_específicos": [
+        "Comprender el ciclo de vida de las abejas",
+        "Identificar equipos necesarios para apicultura",
+        "Reconocer diferentes especies de abejas"
+      ]
+    },
+    {
+      "módulo": "Instalación y Manejo de Colmenas",
+      "actividades": [
+        "Selección del lugar adecuado",
+        "Instalación de colmenas",
+        "Manejo básico de colmenas",
+        "Prevención de enfermedades"
+      ],
+      "duración": "2 semanas",
+      "objetivos_específicos": [
+        "Instalar colmenas de forma segura",
+        "Realizar inspecciones básicas",
+        "Prevenir problemas comunes"
+      ]
+    },
+    {
+      "módulo": "Extracción y Procesamiento de Miel",
+      "actividades": [
+        "Técnicas de extracción",
+        "Filtrado y envasado",
+        "Control de calidad",
+        "Almacenamiento adecuado"
+      ],
+      "duración": "2 semanas",
+      "objetivos_específicos": [
+        "Extraer miel de forma higiénica",
+        "Procesar miel para consumo",
+        "Mantener estándares de calidad"
+      ]
+    },
+    {
+      "módulo": "Sostenibilidad y Comercialización",
+      "actividades": [
+        "Impacto ambiental positivo",
+        "Mercado local de miel",
+        "Estrategias de venta",
+        "Certificaciones y normativas"
+      ],
+      "duración": "1 semana",
+      "objetivos_específicos": [
+        "Contribuir a la sostenibilidad ambiental",
+        "Comercializar productos apícolas",
+        "Cumplir normativas locales"
+      ]
+    }
+  ],
+  "duración": "8 semanas (16 sesiones de 2 horas)",
+  "créditos": 4,
+  "modalidad": "Presencial con prácticas",
+  "requisitos": [
+    "Interés en la sostenibilidad ambiental",
+    "Disponibilidad para trabajo práctico",
+    "Compromiso con el cuidado de las abejas"
+  ],
+  "beneficios": [
+    "Producción de miel natural y orgánica",
+    "Contribución a la conservación de polinizadores",
+    "Posible fuente de ingresos adicionales",
+    "Conocimiento sobre sostenibilidad ambiental"
+  ],
+  "estadísticas": {
+    "estudiantes_inscritos": 45,
+    "tasa_completación": 92,
+    "satisfacción_promedio": 4.8,
+    "empleabilidad": 78
+  },
+  "instructor": {
+    "nombre": "Dr. María González",
+    "especialidad": "Apicultura y Sostenibilidad Ambiental",
+    "experiencia": "15 años",
+    "certificaciones": ["Apicultor Certificado", "Educador Ambiental"]
+  }
+}
+
+
+
+

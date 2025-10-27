@@ -1,0 +1,36 @@
+{
+  "nombre": "Transformación Gradual: Crea Hábitos que Cambien tu Vida",
+  "nivel": 0,
+  "objetivos": [
+    "Aprender la ciencia detrás de la formación de hábitos",
+    "Diseñar sistemas para crear hábitos positivos duraderos",
+    "Eliminar hábitos negativos de forma sostenible",
+    "Mantener la motivación y consistencia en el proceso"
+  ],
+  "resumen": "Curso práctico sobre cómo crear hábitos positivos duraderos mediante pequeños cambios diarios, sin depender únicamente de la fuerza de voluntad.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé el método científico para crear hábitos que transformen tu vida, mediante cambios pequeños y sostenibles que generen grandes resultados.",
+  "contenido": [
+    {
+      "módulo": "Ciencia de los Hábitos",
+      "actividades": ["Entendimiento del loop del hábito", "Identificación de triggers y recompensas", "Taller de neurociencia aplicada"]
+    },
+    {
+      "módulo": "Creación de Hábitos Positivos",
+      "actividades": ["Diseño de sistemas para nuevos hábitos", "Implementación de cambios graduales", "Técnicas de seguimiento y medición"]
+    },
+    {
+      "módulo": "Eliminación de Hábitos Negativos",
+      "actividades": ["Identificación de hábitos perjudiciales", "Estrategias de reemplazo progresivo", "Manejo de recaídas y obstáculos"]
+    },
+    {
+      "módulo": "Sostenibilidad",
+      "actividades": ["Desarrollo de consistencia", "Mantenimiento de motivación a largo plazo", "Creación de ambiente de apoyo"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 1.5 horas)",
+  "modalidad_piloto": "Taller de 2 horas: 'Crea tu primer hábito en 21 días'",
+  "requisitos_profesor": "Coach certificado en metodología de hábitos o psicólogo con experiencia en cambio conductual",
+  "ruta": "✨ RUTA 5: CRECIMIENTO PERSONAL",
+  "créditos": 2
+}

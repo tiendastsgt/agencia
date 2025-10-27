@@ -1,0 +1,36 @@
+{
+  "nombre": "Biblia Práctica: Sabiduría Divina para la Vida Moderna",
+  "nivel": 0,
+  "objetivos": [
+    "Aplicar principios bíblicos para resolver desafíos cotidianos",
+    "Desarrollar plan de lectura bíblica sistemática anual",
+    "Fortalecer liderazgo cristiano en hogar y comunidad",
+    "Crear grupos de estudio bíblico familiar"
+  ],
+  "resumen": "Curso práctico que aplica la sabiduría bíblica a los desafíos contemporáneos de la familia guatemalteca, desde finanzas hasta relaciones.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a aplicar principios bíblicos prácticos para transformar tu vida familiar, financiera y espiritual en el contexto guatemalteco actual.",
+  "contenido": [
+    {
+      "módulo": "Finanzas Bíblicas",
+      "actividades": ["Principios bíblicos de mayordomía", "Aplicación a economía familiar guatemalteca", "Taller de liberación de deudas"]
+    },
+    {
+      "módulo": "Familia y Relaciones",
+      "actividades": ["Principios para relaciones familiares saludables", "Resolución de conflictos según sabiduría bíblica", "Fortalecimiento de matrimonio y paternidad"]
+    },
+    {
+      "módulo": "Liderazgo y Servicio",
+      "actividades": ["Desarrollo de liderazgo servicial", "Servicio comunitario práctico", "Ministerio en la vida cotidiana"]
+    },
+    {
+      "módulo": "Crecimiento Personal",
+      "actividades": ["Desarrollo de hábitos espirituales", "Plan de lectura bíblica anual", "Grupos de estudio y accountability"]
+    }
+  ],
+  "duración": "6 semanas (12 sesiones de 1.5 horas)",
+  "modalidad_piloto": "Taller de 2 horas: 'La Biblia en tus finanzas diarias'",
+  "requisitos_profesor": "Persona con formación teológica y experiencia en aplicación práctica de principios bíblicos",
+  "ruta": "🕊️ RUTA 6: VIDA ESPIRITUAL INTEGRADA",
+  "créditos": 2
+}

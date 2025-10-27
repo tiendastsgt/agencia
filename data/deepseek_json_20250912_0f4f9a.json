@@ -1,0 +1,36 @@
+{
+  "nombre": "Ventas Exitosas: Multiplica los Ingresos de Tu Negocio",
+  "nivel": 0,
+  "objetivos": [
+    "Incrementar ventas del negocio 50-100% en 3 meses",
+    "Desarrollar habilidades de atención al cliente guatemalteco",
+    "Crear sistema de ventas escalable",
+    "Implementar estrategias de fidelización de clientes locales"
+  ],
+  "resumen": "Curso práctico de ventas diseñado específicamente para pequeños negocios y emprendedores guatemaltecos que buscan crecimiento rápido.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé estrategias comprobadas que te ayudarán a incrementar las ventas de tu negocio entre 50-100% en los próximos 3 meses.",
+  "contenido": [
+    {
+      "módulo": "Psicología del Cliente Guatemalteco",
+      "actividades": ["Análisis del comportamiento de compra local", "Técnicas de comunicación efectiva", "Taller de atención al cliente chapín"]
+    },
+    {
+      "módulo": "Proceso de Ventas Efectivo",
+      "actividades": ["Diseño de funnel de ventas personalizado", "Técnicas de prospección y cualificación", "Manejo de objeciones específicas"]
+    },
+    {
+      "módulo": "Estrategias de Cierre y Seguimiento",
+      "actividades": ["Técnicas de cierre no agresivo", "Sistemas de seguimiento post-venta", "Automatización de procesos comerciales"]
+    },
+    {
+      "módulo": "Fidelización y Crecimiento",
+      "actividades": ["Programas de lealtad para clientes", "Estrategias de ventas cruzadas", "Expansion de mercado y escalamiento"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 2 horas)",
+  "modalidad_piloto": "Taller de 3 horas: 'Primeras ventas garantizadas'",
+  "requisitos_profesor": "Experto en ventas con experiencia en pequeños negocios guatemaltecos y resultados comprobados",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 2
+}

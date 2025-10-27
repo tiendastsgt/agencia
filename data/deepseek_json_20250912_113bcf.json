@@ -1,0 +1,36 @@
+{
+  "nombre": "IA Práctica: Herramientas Inteligentes para Facilitar tu Vida",
+  "nivel": 0,
+  "objetivos": [
+    "Comprender qué es la IA y cómo funciona en términos simples",
+    "Utilizar herramientas de IA para tareas cotidianas y productividad",
+    "Identificar oportunidades de automatización en la vida diaria",
+    "Mantenerse actualizado sobre avances relevantes en IA"
+  ],
+  "resumen": "Curso práctico sobre cómo la IA puede simplificar la vida diaria, usando herramientas para escribir, organizar, crear contenido y automatizar tareas.",
+  "público_objetivo": "Jóvenes adultos y padres de familia",
+  "razón_para_tomarlo": "Aprendé a usar herramientas de inteligencia artificial que te ahorrarán tiempo en tareas cotidianas y mejorarán tu productividad personal y laboral.",
+  "contenido": [
+    {
+      "módulo": "Fundamentos de IA",
+      "actividades": ["Entendimiento básico de cómo funciona la IA", "Identificación de aplicaciones prácticas", "Taller de terminología esencial"]
+    },
+    {
+      "módulo": "Herramientas Cotidianas",
+      "actividades": ["Uso de asistentes virtuales", "Herramientas de escritura con IA", "Organización y planificación inteligente"]
+    },
+    {
+      "módulo": "Automatización",
+      "actividades": ["Automatización de tareas repetitivas", "Flujos de trabajo optimizados", "Integración de herramientas"]
+    },
+    {
+      "módulo": "Aplicaciones Avanzadas",
+      "actividades": ["Creación de contenido con IA", "Análisis de datos personales", "Personalización de herramientas"]
+    }
+  ],
+  "duración": "4 semanas (8 sesiones de 1.5 horas)",
+  "modalidad_piloto": "Taller de 2 horas: '10 herramientas de IA que necesitás ya'",
+  "requisitos_profesor": "Instructor con conocimientos avanzados en herramientas de IA y experiencia en educación digital",
+  "ruta": "💰 RUTA 4: LIBERTAD FINANCIERA",
+  "créditos": 1
+}
