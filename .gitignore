@@ -14,6 +14,7 @@ build/
 *.tsbuildinfo
 
 # Environment variables
+config/api-keys.ts
 .env
 .env.local
 .env.production
@@ -100,4 +101,4 @@ coverage/
 .storybook-out
 
 # Local Netlify folder
-.netlifyconfig/api-keys.local.ts
+.netlify
